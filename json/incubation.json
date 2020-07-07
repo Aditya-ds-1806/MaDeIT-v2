@@ -1,0 +1,26 @@
+[
+    {
+        "stage": "Pre-Incubation",
+        "description": "Initial screening of application"
+    },
+    {
+        "stage": "Enrolment",
+        "description": "Business Plan Evaluation"
+    },
+    {
+        "stage": "Design Enablement",
+        "description": "Design of Product Architecture"
+    },
+    {
+        "stage": "Seed Funding",
+        "description": "Contract of seed funds"
+    },
+    {
+        "stage": "Accelerate Product",
+        "description": "Rapid Prototyping"
+    },
+    {
+        "stage": "Exit/Extension",
+        "description": "Viable and scalable business"
+    }
+]

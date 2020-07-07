@@ -1,0 +1,187 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 500;
+}
+
+body {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+*::selection {
+	background-color: rgb(20, 167, 157);
+	color: #fff;
+}
+
+/* text colors */
+
+.text-mountain-meadow {
+	color: rgb(20, 167, 157);
+}
+
+.text-sea-buckthorn {
+	color: rgb(247, 152, 39);
+}
+
+.text-emperor {
+	color: #505050;
+}
+
+/* bg colors */
+
+.bg-mountain-meadow {
+	background-color: rgb(20, 167, 157);
+}
+
+.bg-sea-buckthorn {
+	background-color: rgb(247, 152, 39);
+}
+
+.bg-wild-sand {
+	background-color: #f5f5f5;
+}
+
+.bg-denim {
+	background-color: #0e74bc;
+}
+
+/* links */
+
+a.text-sea-buckthorn:hover {
+	color: rgb(247, 152, 39);
+}
+
+/* borders */
+
+.border-sea-buckthorn {
+	border: 1px solid rgb(247, 152, 39);
+}
+
+.border-mountain-meadow {
+	border: 1px solid rgb(20, 167, 157);
+}
+
+/* buttons */
+
+.btn-mountain-meadow {
+	border: 2px solid rgb(20, 167, 157);
+	background-color: rgb(20, 167, 157);
+}
+
+.btn-mountain-meadow:focus,
+.btn-outline-mountain-meadow:focus {
+	box-shadow: 0 0 0 0.2rem rgba(20, 167, 157, 0.5);
+}
+
+.btn-outline-mountain-meadow {
+	border: 2px solid rgb(20, 167, 157);
+	transition: background-color 400ms, color 400ms;
+}
+
+.btn-outline-mountain-meadow:hover {
+	color: #fff;
+	background-color: rgb(20, 167, 157);
+}
+
+.btn-sea-buckthorn {
+	background-color: rgb(247, 152, 39);
+}
+
+.btn-sea-buckthorn:focus {
+	box-shadow: 0 0 0 0.2rem rgba(247, 152, 39, 0.5);
+}
+
+.btn-outline-emperor {
+	color: #505050;
+	border: 2px solid #505050;
+}
+
+.btn-outline-emperor:focus {
+	box-shadow: 0 0 0 0.2rem rgba(80, 80, 80, 0.5);
+}
+
+.btn-outline-emperor:hover {
+	background-color: #505050;
+	color: #fff;
+	transition: background-color 400ms, color 400ms;
+}
+
+@media (min-width: 576px) {
+	.w-sm-25 {
+		width: 25% !important;
+	}
+
+	.w-sm-50 {
+		width: 50% !important;
+	}
+
+	.w-sm-75 {
+		width: 75% !important;
+	}
+
+	.w-sm-100 {
+		width: 100% !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.w-md-25 {
+		width: 25% !important;
+	}
+
+	.w-md-50 {
+		width: 50% !important;
+	}
+
+	.w-md-75 {
+		width: 75% !important;
+	}
+
+	.w-md-100 {
+		width: 100% !important;
+	}
+}
+
+@media (min-width: 992px) {
+	.w-lg-25 {
+		width: 25% !important;
+	}
+
+	.w-lg-50 {
+		width: 50% !important;
+	}
+
+	.w-lg-75 {
+		width: 75% !important;
+	}
+
+	.w-lg-100 {
+		width: 100% !important;
+	}
+}
+
+@media (min-width: 1200px) {
+	.w-xl-25 {
+		width: 25% !important;
+	}
+
+	.w-xl-50 {
+		width: 50% !important;
+	}
+
+	.w-xl-75 {
+		width: 75% !important;
+	}
+
+	.w-xl-100 {
+		width: 100% !important;
+	}
+}

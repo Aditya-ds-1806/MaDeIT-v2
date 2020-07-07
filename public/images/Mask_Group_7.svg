@@ -1,0 +1,13 @@
+<svg width="982.716" height="309.063" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com">
+ <defs>
+  <clipPath id="clip-path">
+   <path d="m-619.37,-823l-982.716,0l0,-309.063l982.716,0l0,309.063z" data-name="Path 7594" fill="none" id="Path_7594" stroke="#707070" transform="translate(2025 1822)"/>
+  </clipPath>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g clip-path="url(#clip-path)" data-name="Mask Group 7" id="Mask_Group_7" transform="translate(-422.914 -689.937)">
+   <path d="m665,925.657c12.894,-10.505 73.682,-91.963 303.939,-94.549s241.309,-78.872 244.993,-113.782s31.315,-137.056 154.733,-120.247s130.786,-45.254 208.152,-12.93s62.63,128.005 191.574,133.177s145.522,16.809 186.048,55.6s32.141,99.847 168.453,97.261s52.594,77.938 52.594,77.938l-1510.486,-22.468z" data-name="Path 7582" fill="#1eaaa1" id="Path_7582" transform="rotate(2 1 30) translate(-534.822 152.709)"/>
+  </g>
+ </g>
+</svg>

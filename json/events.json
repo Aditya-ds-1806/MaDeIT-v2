@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Acceleration Program",
+        "isNew": true,
+        "description": "MaDeIT started 6 months Acceletation Program at TVS TS, Ambattur on 24th October 2019",
+        "href": "../public/images/TVS_TS.jpg"
+    },
+    {
+        "title": "Another Program",
+        "isNew": true,
+        "description": "Developing Excellent concepts that are manufacturable and meet your business requirements.",
+        "href": "../public/images/TVS_TS.jpg"
+    },
+    {
+        "title": "Yet another program",
+        "isNew": false,
+        "description": "Developing Excellent concepts that are manufacturable and meet your business requirements.",
+        "href": "../public/images/TVS_TS.jpg"
+    },
+    {
+        "title": "program",
+        "isNew": false,
+        "description": "Developing Excellent concepts that are manufacturable and meet your business requirements.",
+        "href": "../public/images/TVS_TS.jpg"
+    },
+    {
+        "title": "programme",
+        "isNew": false,
+        "description": "Developing Excellent concepts that are manufacturable and meet your business requirements.",
+        "href": "../public/images/TVS_TS.jpg"
+    },
+    {
+        "title": "some program",
+        "isNew": false,
+        "description": "Developing Excellent concepts that are manufacturable and meet your business requirements.",
+        "href": "../public/images/TVS_TS.jpg"
+    },
+    {
+        "title": "programme",
+        "isNew": false,
+        "description": "Developing Excellent concepts that are manufacturable and meet your business requirements.",
+        "href": "../public/images/TVS_TS.jpg"
+    },
+    {
+        "title": "some program",
+        "isNew": false,
+        "description": "Developing Excellent concepts that are manufacturable and meet your business requirements.",
+        "href": "../public/images/TVS_TS.jpg"
+    }
+]
