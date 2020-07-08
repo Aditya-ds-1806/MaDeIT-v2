@@ -25,6 +25,12 @@ Flight::route('/tenders', function () {
     require('views/tenders.php');
 });
 
+Flight::route('/programme', function () {
+    if (isset($_GET['name']) && $_GET['name'] === 'nidhi-prayas') {
+        require('views/nidhi-prayas.php');
+    } else Flight::notFound();
+});
+
 Flight::route('*', function () {
     require('views/home.php');
     Flight::notFound();

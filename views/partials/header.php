@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="public/stylesheets/theme.css">
 
     <?php
-    if ($route == 'index') {
+    if (isset($route) && $route == 'index') {
         echo '<link rel="stylesheet" href="public/stylesheets/index.css">';
     }
     ?>

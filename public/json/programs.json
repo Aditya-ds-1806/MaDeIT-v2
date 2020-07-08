@@ -1,22 +1,26 @@
 [
     {
-        "program": "Nidhi Prayaas",
+        "program": "Nidhi Prayas",
         "description": "NIDHI is an umbrella programme conceived and developed by the Innovation & Entrepreneurship division, for nurturing ideas and innovations (knowledge-based and technology-driven) into successful startups.",
-        "image": "public/images/programmes/nidhi-prayaas.png"
+        "image": "public/images/programmes/nidhi-prayaas.png",
+        "url": "programme?name=nidhi-prayas"
     },
     {
-        "program": "Nidhi Prayaas",
+        "program": "Nidhi Prayas",
         "description": "NIDHI is an umbrella programme conceived and developed by the Innovation & Entrepreneurship division, for nurturing ideas and innovations (knowledge-based and technology-driven) into successful startups.",
-        "image": "public/images/programmes/nidhi-prayaas.png"
+        "image": "public/images/programmes/nidhi-prayaas.png",
+        "url": "programme?name=nidhi-prayas"
     },
     {
-        "program": "Nidhi Prayaas",
+        "program": "Nidhi Prayas",
         "description": "NIDHI is an umbrella programme conceived and developed by the Innovation & Entrepreneurship division, for nurturing ideas and innovations (knowledge-based and technology-driven) into successful startups.",
-        "image": "public/images/programmes/nidhi-prayaas.png"
+        "image": "public/images/programmes/nidhi-prayaas.png",
+        "url": "programme?name=nidhi-prayas"
     },
     {
-        "program": "Nidhi Prayaas",
+        "program": "Nidhi Prayas",
         "description": "NIDHI is an umbrella programme conceived and developed by the Innovation & Entrepreneurship division, for nurturing ideas and innovations (knowledge-based and technology-driven) into successful startups.",
-        "image": "public/images/programmes/nidhi-prayaas.png"
+        "image": "public/images/programmes/nidhi-prayaas.png",
+        "url": "programme?name=nidhi-prayas"
     }
 ]
