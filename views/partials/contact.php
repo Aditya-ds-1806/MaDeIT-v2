@@ -9,7 +9,8 @@
                 <form id="subscription">
                     <div class="form-group">
                         <label for="email"></label>
-                        <input type="email" class="form-control" id="email" placeholder="Email" required>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                        <p id="message" class="mt-1"></p>
                     </div>
                     <button type="submit" class="btn btn-sm btn-mountain-meadow text-white">Subscribe</button>
                 </form>
