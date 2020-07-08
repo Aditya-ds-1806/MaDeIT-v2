@@ -12,7 +12,10 @@
                         <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
                         <p id="message" class="mt-1"></p>
                     </div>
-                    <button type="submit" class="btn btn-sm btn-mountain-meadow text-white">Subscribe</button>
+                    <button type="submit" class="btn btn-sm btn-mountain-meadow text-white">
+                        Subscribe
+                        <span id="spinner" class="spinner-border spinner-border-sm ml-1 d-none" role="status"></span>
+                    </button>
                 </form>
             </div>
             <div class="col-sm-5 col-lg-2 text-center text-sm-right text-lg-left mt-5 mt-sm-0">
