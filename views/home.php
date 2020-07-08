@@ -24,7 +24,7 @@ $events = json_decode($events, true);
         <div class="container hero-text text-left text-sm-center">
             <h1 class="display-4 w-50 w-sm-100">Believe. Design. Leap.</h1>
             <p class="d-block my-3 w-75 w-sm-100">MaDeIT is a Design Driven Technology Business Incubator to help startups</p>
-            <a href="#story" class="btn btn-mountain-meadow text-white">Watch Our Story</a>
+            <a href="#story" class="btn btn-mountain-meadow text-white" data-toggle="modal" data-target="#exampleModal">Watch Our Story</a>
         </div>
         <div class="social position-absolute mr-5 hero-social">
             <a href="https://twitter.com/MaDeITInnovati1" target="_blank" class="text-white d-block mb-4"><i class="fab fa-twitter fa-lg"></i></a>
@@ -168,8 +168,24 @@ $events = json_decode($events, true);
         </div>
     </section>
 
-    <!-- 9. Footer -->
-
+    <!-- 9. Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" data-backdrop="static" role="dialog">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-body">
+                    <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="row justify-content-center mx-0">
+                        <div class="embed-responsive embed-responsive-16by9 col-12 m-3">
+                            <iframe src="https://www.youtube.com/embed/AXh3f6fjxY0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 10. Footer -->
     <?php include 'partials/footer.php' ?>
 </body>
 

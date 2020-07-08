@@ -114,6 +114,16 @@ a.text-sea-buckthorn:hover {
 	transition: background-color 400ms, color 400ms;
 }
 
+.close {
+	text-shadow: none;
+	opacity: 1;
+	font-weight: 500;
+	font-size: 2.5rem;
+	position: absolute;
+	right: -8px;
+	top: -8px;
+}
+
 @media (min-width: 576px) {
 	.w-sm-25 {
 		width: 25% !important;
