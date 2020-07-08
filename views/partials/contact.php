@@ -16,14 +16,14 @@
             </div>
             <div class="col-sm-5 col-lg-2 text-center text-sm-right text-lg-left mt-5 mt-sm-0">
                 <h6>IMPORTANT LINKS</h6>
-                <a href="tenders.php" class="text-white d-block">Tenders</a>
+                <a href="tenders" class="text-white d-block">Tenders</a>
                 <a href="https://iiitdm.ac.in" class="text-white d-block">Institute Site</a>
             </div>
             <div class="col-sm-5 col-lg-2 text-center text-sm-left mt-5 mt-lg-0">
                 <h6>SITE MAP</h6>
-                <a href="portfolio.php" class="text-white d-block">Portfolio</a>
-                <a href="people.php" class="text-white d-block">Teams</a>
-                <a href="news.php" class="text-white d-block">News and Events</a>
+                <a href="portfolio" class="text-white d-block">Portfolio</a>
+                <a href="people" class="text-white d-block">Teams</a>
+                <a href="news" class="text-white d-block">News and Events</a>
                 <h6 class="mt-3">SOCIAL MEDIA</h6>
                 <a href="https://twitter.com/MaDeITInnovati1" target="_blank" class="text-white mr-3"><i class="fab fa-twitter"></i></a>
                 <a href="https://www.facebook.com/madeit.iiitdm.kancheepuram/" target="_blank" class="text-white mx-3"><i class="fab fa-facebook-f"></i></a>

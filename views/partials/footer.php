@@ -1,5 +1,5 @@
 <footer>
-    <?php include 'partials/contact.php' ?>
+    <?php include 'contact.php' ?>
     <!-- navbar position control -->
     <script src="public/scripts/navbar.js"></script>
     <?php

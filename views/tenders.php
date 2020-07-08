@@ -1,7 +1,7 @@
 <?php
 $route = 'people';
 include 'partials/header.php';
-$tender = file_get_contents('json/tender.json', true);
+$tender = file_get_contents('public/json/tender.json', true);
 $tender = json_decode($tender, true);
 ?>
 

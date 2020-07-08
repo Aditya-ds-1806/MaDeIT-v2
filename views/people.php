@@ -1,7 +1,7 @@
 <?php
 $route = 'people';
-include './partials/header.php';
-$people = file_get_contents('json/people.json', true);
+include 'partials/header.php';
+$people = file_get_contents('public/json/people.json', true);
 $people = json_decode($people, true);
 ?>
 

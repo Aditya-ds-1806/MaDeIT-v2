@@ -1,7 +1,7 @@
 <?php
 $route = 'index';
 include 'partials/header.php';
-$startups = file_get_contents('json/startups.json', true);
+$startups = file_get_contents('public/json/startups.json', true);
 $startups = json_decode($startups, true);
 ?>
 
