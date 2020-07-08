@@ -178,7 +178,7 @@ $events = json_decode($events, true);
                     </button>
                     <div class="row justify-content-center mx-0">
                         <div class="embed-responsive embed-responsive-16by9 col-12 m-3">
-                            <iframe src="https://www.youtube.com/embed/AXh3f6fjxY0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe id="ytstory" src="https://www.youtube.com/embed/AXh3f6fjxY0?enablejsapi=1&version=3&playerapiid=ytplayer" allowscriptaccess="always" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
