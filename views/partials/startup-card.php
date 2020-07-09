@@ -1,4 +1,4 @@
-<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 justify-content-center text-left">
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center text-left">
     <?php if (isset($tag)) { ?>
         <?php for ($i = 0; $i < count($startups['ongoing']); $i++) { ?>
             <?php if ($tag === $startups['ongoing'][$i]['tag']) { ?>

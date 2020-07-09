@@ -16,9 +16,9 @@ $people = json_decode($people, true);
                 </p>
             </div>
         </header>
-        <div class="row row-cols-1 row-cols-lg-2 my-5 py-5">
+        <div class="row row-cols-1 row-cols-lg-2 my-5 pb-5">
             <?php for ($i = 0; $i < count($people['directors']); $i++) { ?>
-                <div class="col my-3 my-lg-0">
+                <div class="col mb-5 my-lg-0">
                     <div class="card border-0 px-1 py-3 p-sm-5 mx-2 ml-lg-3 ml-xl-5 shadow h-100">
                         <img src="<?php echo $people['directors'][$i]['image'] ?>" class="card-img-top rounded-circle img-fluid w-50 mx-auto" alt="<?php echo $people['directors'][$i]['name'] ?>">
                         <div class="card-body">
@@ -33,10 +33,12 @@ $people = json_decode($people, true);
                 </div>
             <?php } ?>
         </div>
-        <h1>Strategic Advsiory Board</h1>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center my-5">
-            <?php include 'partials/people-card.php'; ?>
-        </div>
+        <section class="pt-5">
+            <h1>Strategic Advsiory Board</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center my-5">
+                <?php include 'partials/people-card.php'; ?>
+            </div>
+        </section>
     </div>
 
     <?php include 'partials/footer.php'; ?>

@@ -162,7 +162,11 @@ a.text-sea-buckthorn:hover {
 
 @media (min-width: 992px) {
 	.w-lg-25 {
-		width: 25% !important;
+		width: 33% !important;
+	}
+
+	.w-lg-33 {
+		width: 33% !important;
 	}
 
 	.w-lg-50 {

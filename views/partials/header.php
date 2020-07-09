@@ -22,10 +22,8 @@
     <link rel="stylesheet" href="public/stylesheets/common.css">
     <link rel="stylesheet" href="public/stylesheets/theme.css">
 
-    <?php
-    if (isset($route) && $route == 'index') {
-        echo '<link rel="stylesheet" href="public/stylesheets/index.css">';
-    }
-    ?>
+    <?php if (isset($route) && $route == 'index') { ?>
+        <link rel="stylesheet" href="public/stylesheets/index.css">
+    <?php } ?>
     <title>MaDeIT Innovation Foundation</title>
 </head>

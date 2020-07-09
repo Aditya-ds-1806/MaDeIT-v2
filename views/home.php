@@ -136,7 +136,7 @@ $events = json_decode($events, true);
             <h4 class="text-sea-buckthorn">INCUBATION PROCESS</h4>
             <h2>How does it happen?</h2>
             <p class="w-100 w-md-50">Developing excellent concepts that are manufacturable and meet your business</p>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
                 <?php include 'partials/incubation-card.php' ?>
             </div>
         </div>
@@ -148,7 +148,6 @@ $events = json_decode($events, true);
             <div class="text-center">
                 <h2>Programmes</h2>
                 <p>Developing excellent concepts that are manufacturable and meet your business</p>
-                <button class="btn btn-mountain-meadow text-white">Know more</button>
             </div>
             <div class="position-relative mt-5">
                 <?php include 'partials/program-cards.php' ?>
@@ -178,7 +177,7 @@ $events = json_decode($events, true);
                     </button>
                     <div class="row justify-content-center mx-0">
                         <div class="embed-responsive embed-responsive-16by9 col-12 m-3">
-                            <iframe id="ytstory" src="https://www.youtube.com/embed/AXh3f6fjxY0?enablejsapi=1&version=3&playerapiid=ytplayer" allowscriptaccess="always" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe id="ytstory" src="https://www.youtube.com/embed/AXh3f6fjxY0?enablejsapi=1&version=3&playerapiid=ytplayer&rel=0" allowscriptaccess="always" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

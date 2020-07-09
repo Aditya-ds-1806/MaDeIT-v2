@@ -5,7 +5,9 @@
                 <div class="card-body">
                     <a href="<?php echo $events[$j]['href'] ?>">
                         <h5 class="card-title text-dark"><?php echo $events[$j]['title'] ?>
-                            <?php if ($events[$j]['isNew']) echo '<span class="badge bg-mountain-meadow text-white float-right">New</span>' ?>
+                            <?php if ($events[$j]['isNew']) { ?>
+                                <span class="badge bg-mountain-meadow text-white postion-absolute">New</span>
+                            <?php } ?>
                         </h5>
                     </a>
                     <p class="card-text"><?php echo $events[$j]['description'] ?></p>
