@@ -1,3 +1,4 @@
+var prevScrollY = 0;
 window.addEventListener('scroll', function (e) {
     e.preventDefault();
     if (window.scrollY > window.innerHeight) {

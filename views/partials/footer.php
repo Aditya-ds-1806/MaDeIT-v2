@@ -1,4 +1,4 @@
-<footer>
+<footer class="fixed-bottom" style="z-index:-1">
     <?php include 'contact.php' ?>
     <!-- navbar position control -->
     <script src="public/scripts/navbar.js"></script>

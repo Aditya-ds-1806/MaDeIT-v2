@@ -17,10 +17,10 @@ $events = json_decode($events, true);
 ?>
 
 
-<body>
+<body class="bg-white">
     <!-- 1. Hero Div and Navbar -->
     <?php include 'partials/navbar.php' ?>
-    <header class="container-fluid hero-image pt-4">
+    <header class="container-fluid hero-image pt-4 bg-white">
         <div class="container hero-text text-left text-sm-center">
             <h1 class="display-4 w-50 w-sm-100">Believe. Design. Leap.</h1>
             <p class="d-block my-3 w-75 w-sm-100">MaDeIT is a Design Driven Technology Business Incubator to help startups</p>
@@ -36,7 +36,7 @@ $events = json_decode($events, true);
 
     <!-- 2. Statistics -->
     <section class="container-fluid stats bg-sea-buckthorn text-white text-center py-5" id="story">
-        <div class="container-lg my-5">
+        <div class="container-lg py-5">
             <p class="w-100 w-md-75 w-lg-50 mx-auto p-4">Developing excellent concepts that are manufacturable and meet your business
                 requirements.</p>
             <div class="row mx-0">
@@ -57,7 +57,7 @@ $events = json_decode($events, true);
     </section>
 
     <!-- 3. About -->
-    <section class="container-fluid position-relative py-5 px-0" id="about">
+    <section class="container-fluid position-relative py-5 px-0 bg-white" id="about">
         <div class="container text-center mt-5 py-5">
             <h5 class="text-sea-buckthorn">OUR STORY</h5>
             <h2>About MaDeIT</h2>
@@ -110,7 +110,7 @@ $events = json_decode($events, true);
     </section>
 
     <!-- 5. The Magic -->
-    <section class="container-fluid px-0 py-5 px-0">
+    <section class="container-fluid px-0 py-5 px-0 bg-white">
         <div class="row align-items-center pt-5 mt-5 mr-0">
             <div class="col-md-6 col-lg-5 col-xl-6 px-5 pl-md-0">
                 <img src="public/images/carousel/1.jpg" class="img-fluid w-100">
@@ -131,8 +131,8 @@ $events = json_decode($events, true);
     </section>
 
     <!-- 6. Incubation Process -->
-    <section class="container mt-5 py-5">
-        <div class="container-fluid pb-5 mb-5">
+    <section class="container-fluid py-5 bg-white">
+        <div class="container py-5 mb-5">
             <h4 class="text-sea-buckthorn">INCUBATION PROCESS</h4>
             <h2>How does it happen?</h2>
             <p class="w-100 w-md-50">Developing excellent concepts that are manufacturable and meet your business</p>
@@ -143,7 +143,7 @@ $events = json_decode($events, true);
     </section>
 
     <!-- 7. Programmes -->
-    <section class="container-fluid bg-wild-sand mb-5 py-5" id="programmes">
+    <section class="container-fluid bg-wild-sand py-5" id="programmes">
         <div class="container py-5 my-5">
             <div class="text-center">
                 <h2>Programmes</h2>
@@ -158,12 +158,12 @@ $events = json_decode($events, true);
     </section>
 
     <!-- 8. News and Events -->
-    <section class="container-fluid text-center mx-auto py-5 my-5" id="news">
+    <section class="container-fluid text-center mx-auto py-5 mb-5 bg-white" id="news">
         <h2 class="my-4">News and Events</h2>
         <p class="w-50 mx-auto">Developing excellent concepts that are manufacturable and meet your business</p>
-        <div class="container mb-4">
+        <div class="container mb-5">
             <?php include 'partials/news-card.php' ?>
-            <a href="news" class="btn btn-outline-emperor text-center px-4 py-2">View more</a>
+            <a href="news" class="btn btn-outline-emperor text-center px-4 py-2 mb-4">View more</a>
         </div>
     </section>
 
