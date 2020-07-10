@@ -1,5 +1,4 @@
 <?php
-$route = 'index';
 $len = 6;
 include 'partials/header.php';
 

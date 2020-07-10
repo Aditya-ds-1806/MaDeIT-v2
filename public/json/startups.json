@@ -1,90 +1,106 @@
 {
-    "ongoing": [
+    "tags": [
+        "Category 1",
+        "Category 2",
+        "Category 3",
+        "Category 4"
+    ],
+    "companies": [
         {
             "name": "Thoughtbit Technologies, Chennai",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
             "logo": "public/images/startups/ongoing/thoughtbit.png",
             "tag": "Category 1",
-            "website": "http://www.thoughtbit.in/#/?_k=e8su3o"
+            "website": "http://www.thoughtbit.in/#/?_k=e8su3o",
+            "status": "ongoing"
         },
         {
             "name": "Lucid Software Limited, Chennai",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
             "logo": "public/images/startups/ongoing/lucidsoft.png",
             "tag": "Category 2",
-            "website": "http://www.lucidsoft.net/index.htm"
+            "website": "http://www.lucidsoft.net/index.htm",
+            "status": "ongoing"
         },
         {
             "name": "Inoventric Sustainable Solutions (LLP), Chennai",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
             "logo": "public/images/startups/ongoing/inoventric.jpg",
             "tag": "Category 3",
-            "website": "https://www.inoventric.com/"
+            "website": "https://www.inoventric.com/",
+            "status": "ongoing"
         },
         {
             "name": "EQUAD Engineering Services, Chennai",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
             "logo": "public/images/startups/ongoing/equad.jpg",
             "tag": "Category 4",
-            "website": "http://www.equadservices.in/"
+            "website": "http://www.equadservices.in/",
+            "status": "ongoing"
         },
         {
             "name": "EW2WE Ecotechnologies Pvt. Ltd., Chennai",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
             "logo": "public/images/startups/ongoing/EW2WE.png",
             "tag": "Category 1",
-            "website": "http://www.che.iitm.ac.in/~spush/index_ew2we"
+            "website": "http://www.che.iitm.ac.in/~spush/index_ew2we",
+            "status": "ongoing"
         },
         {
             "name": "digi2O Information Solutions, Chennai",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
             "logo": "public/images/startups/ongoing/digi2O.png",
             "tag": "Category 2",
-            "website": "https://www.digi2o.com/"
+            "website": "https://www.digi2o.com/",
+            "status": "ongoing"
         },
         {
             "name": "CAD MAcRO, Chennai",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
             "logo": "public/images/startups/ongoing/cadmacro.png",
             "tag": "Category 3",
-            "website": "https://www.cadmacro.com/web/index.php"
+            "website": "https://www.cadmacro.com/web/index.php",
+            "status": "ongoing"
         },
         {
             "name": "MAX, Chennai",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
             "logo": "public/images/startups/ongoing/MAX.png",
             "tag": "Category 4",
-            "website": "http://maxedu.in/"
-        }
-    ],
-    "graduated": [
+            "website": "http://maxedu.in/",
+            "status": "ongoing"
+        },
         {
             "name": "OLOG Logistics, Chennai",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
             "logo": "public/images/startups/graduated/fr8.png",
             "tag": "Category 1",
-            "website": "https://www.fr8.in/#/"
+            "website": "https://www.fr8.in/#/",
+            "status": "graduated"
         },
         {
             "name": "CUEDIO Technologies, Hyderabad",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
             "logo": "public/images/startups/graduated/cuedio.png",
             "tag": "Category 2",
-            "website": "http://www.cuedio.com/"
+            "website": "http://www.cuedio.com/",
+            "status": "graduated"
         },
         {
             "name": "Cavintek, Chennai",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
             "logo": "public/images/startups/graduated/cavintek.png",
             "tag": "Category 3",
-            "website": "http://www.cavintek.com/"
+            "website": "http://www.cavintek.com/",
+            "status": "graduated"
         },
         {
             "name": "SSD Controls, Chennai",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
             "logo": "public/images/startups/graduated/ssd-controls.jpg",
             "tag": "Category 4",
-            "website": "http://ssd-controls.com/index.html"
+            "website": "http://ssd-controls.com/index.html",
+            "status": "graduated"
         }
     ]
 }

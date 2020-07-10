@@ -1,5 +1,4 @@
 <?php
-$route = 'index';
 include 'partials/header.php';
 $startups = file_get_contents('public/json/startups.json', true);
 $startups = json_decode($startups, true);
@@ -21,40 +20,23 @@ $startups = json_decode($startups, true);
                 <p class="w-100 w-md-75 w-lg-50 mx-auto mt-4">Developing excellent concepts that are manufacturable and meet your business
                     requirements.</p>
                 <ul class="nav nav-pills justify-content-center my-5" id="pills-tab" role="tablist">
-                    <li class="nav-item">
-                        <a class="btn btn-outline-mountain-meadow active px-sm-4 py-sm-2 mx-4 my-2" id="category-1" data-toggle="pill" href="#category-1-tab" role="tab">Category 1</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="btn btn-outline-mountain-meadow px-sm-4 py-sm-2 mx-4 my-2" id="category-2" data-toggle="pill" href="#category-2-tab" role="tab">Category 2</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="btn btn-outline-mountain-meadow px-sm-4 py-sm-2 mx-4 my-2" id="category-3" data-toggle="pill" href="#category-3-tab" role="tab">Category 3</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="btn btn-outline-mountain-meadow px-sm-4 py-sm-2 mx-4 my-2" id="category-4" data-toggle="pill" href="#category-4-tab" role="tab">Category 4</a>
-                    </li>
+                    <?php for ($i = 0; $i < count($startups['tags']); $i++) { ?>
+                        <?php $tag = str_replace(' ', '-', $startups['tags'][$i]) ?>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-mountain-meadow <?php if ($i === 0) echo 'active' ?> px-sm-4 py-sm-2 mx-4 my-2" id="<?php echo str_replace(' ', '-', $tag); ?>" data-toggle="pill" href="<?php echo "#$tag-tab" ?>" role="tab"><?php echo $startups["tags"][$i] ?></a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </header>
         <div class="container text-left pb-5">
             <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="category-1-tab" role="tabpanel">
-                    <?php $tag = 'Category 1';
-                    $len = 'full';
-                    include 'partials/startup-card.php' ?>
-                </div>
-                <div class="tab-pane fade" id="category-2-tab" role="tabpanel">
-                    <?php $tag = 'Category 2';
-                    include 'partials/startup-card.php' ?>
-                </div>
-                <div class="tab-pane fade show" id="category-3-tab" role="tabpanel">
-                    <?php $tag = 'Category 3';
-                    include 'partials/startup-card.php' ?>
-                </div>
-                <div class="tab-pane fade" id="category-4-tab" role="tabpanel">
-                    <?php $tag = 'Category 4';
-                    include 'partials/startup-card.php' ?>
-                </div>
+                <?php for ($j = 0; $j < count($startups['tags']); $j++) { ?>
+                    <?php $tag = $startups['tags'][$j]; ?>
+                    <div class="tab-pane fade<?php if ($j === 0) echo ' show active' ?>" id="<?php echo str_replace(' ', '-', $startups['tags'][$j]) . "-tab" ?>" role="tabpanel">
+                        <?php include 'partials/startup-card.php' ?>
+                    </div>
+                <?php } ?>
             </div>
         </div>
     </section>

@@ -3,6 +3,7 @@ $("#subscription").submit(function (e) {
     var email = $("#email").val();
     var spinner = document.getElementById('spinner');
     if (/\S/.test(email)) {
+        $('#email').val('');
         $("#message").text('');
         spinner.classList.remove('d-none');
         $.ajax({
