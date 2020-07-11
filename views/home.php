@@ -131,11 +131,11 @@ $events = json_decode($events, true);
 
     <!-- 6. Incubation Process -->
     <section class="container-fluid py-5 bg-white">
-        <div class="container py-5 mb-5">
+        <div class="container-md py-5 mb-5">
             <h4 class="text-sea-buckthorn">INCUBATION PROCESS</h4>
             <h2>How does it happen?</h2>
             <p class="w-100 w-md-50">Developing excellent concepts that are manufacturable and meet your business</p>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+            <div class="row row-cols-1 row-cols-sm-2">
                 <?php include 'partials/incubation-card.php' ?>
             </div>
         </div>

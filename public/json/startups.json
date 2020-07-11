@@ -1,106 +1,186 @@
 {
     "tags": [
-        "Category 1",
-        "Category 2",
-        "Category 3",
-        "Category 4"
+        "IOT",
+        "IT/ITC",
+        "MedTech",
+        "CleanTech",
+        "FinTech",
+        "AgriTech",
+        "Others",
+        "graduated",
+        "ongoing"
     ],
     "companies": [
         {
-            "name": "Thoughtbit Technologies, Chennai",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
-            "logo": "public/images/startups/ongoing/thoughtbit.png",
-            "tag": "Category 1",
-            "website": "http://www.thoughtbit.in/#/?_k=e8su3o",
-            "status": "ongoing"
+            "name": "MAX, Chennai",
+            "description": "Trains students on Virtual and Augment reality with hand’s-on exposure using Unity 3D, ARcore and ARKit",
+            "logo": "public/images/startups/ongoing/MAX.jpg",
+            "website": "http://www.maxvr.in/",
+            "tag": "IT/ITC",
+            "status": "ongoing",
+            "seedSupport": true
         },
         {
-            "name": "Lucid Software Limited, Chennai",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
-            "logo": "public/images/startups/ongoing/lucidsoft.png",
-            "tag": "Category 2",
-            "website": "http://www.lucidsoft.net/index.htm",
-            "status": "ongoing"
+            "name": "Efficienza Business Solutions Pvt Ltd",
+            "description": "Emerging industrial smart automation solutions company that develops Enterprise Mobility, Analytics, IoT, Robotics, Big Data solutions. ",
+            "logo": "public/images/startups/ongoing/Efficienza.jpg",
+            "tag": "CleanTech",
+            "website": "http://efficienza.in",
+            "status": "ongoing",
+            "seedSupport": false
         },
         {
-            "name": "Inoventric Sustainable Solutions (LLP), Chennai",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
-            "logo": "public/images/startups/ongoing/inoventric.jpg",
-            "tag": "Category 3",
-            "website": "https://www.inoventric.com/",
-            "status": "ongoing"
+            "name": "DRUMBUFFER ANALYTICS PRIVATE LIMITED",
+            "description": "Provide remote monitoring solutions to industrial customers to improve manufacturing efficiency and reduce cost.",
+            "logo": "public/images/startups/ongoing/drumbuffer.jpg",
+            "tag": "Others",
+            "website": "https://www.drumbuffer.com/",
+            "status": "ongoing",
+            "seedSupport": false
         },
         {
-            "name": "EQUAD Engineering Services, Chennai",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
-            "logo": "public/images/startups/ongoing/equad.jpg",
-            "tag": "Category 4",
-            "website": "http://www.equadservices.in/",
-            "status": "ongoing"
-        },
-        {
-            "name": "EW2WE Ecotechnologies Pvt. Ltd., Chennai",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
-            "logo": "public/images/startups/ongoing/EW2WE.png",
-            "tag": "Category 1",
-            "website": "http://www.che.iitm.ac.in/~spush/index_ew2we",
-            "status": "ongoing"
+            "name": "SCERMLIND Healthcare Innovations Pvt Ltd",
+            "description": "A Fitness/Health Technology startup that uses heart-beat data to arrive at personalized information on Exercise, Training etc.",
+            "logo": "public/images/startups/ongoing/urufit.jpg",
+            "tag": "MedTech",
+            "website": "https://www.urufit.com/",
+            "status": "ongoing",
+            "seedSupport": false
         },
         {
             "name": "digi2O Information Solutions, Chennai",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
-            "logo": "public/images/startups/ongoing/digi2O.png",
-            "tag": "Category 2",
+            "description": "Specializes in building Industrial IoT application solutions for delivering operational intelligence and data-driven manufacturing decision making.",
+            "logo": "public/images/startups/ongoing/digi2O.jpg",
+            "tag": "Others",
             "website": "https://www.digi2o.com/",
-            "status": "ongoing"
+            "status": "ongoing",
+            "seedSupport": true
         },
         {
-            "name": "CAD MAcRO, Chennai",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
-            "logo": "public/images/startups/ongoing/cadmacro.png",
-            "tag": "Category 3",
-            "website": "https://www.cadmacro.com/web/index.php",
-            "status": "ongoing"
+            "name": "Sigaram Technologies",
+            "description": "A software product startup that builds scalable software platform applications.",
+            "logo": "public/images/startups/ongoing/sigaram.jpg",
+            "tag": "Others",
+            "website": "https://www.sigaramtech.com/",
+            "status": "ongoing",
+            "seedSupport": false
         },
         {
-            "name": "MAX, Chennai",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
-            "logo": "public/images/startups/ongoing/MAX.png",
-            "tag": "Category 4",
-            "website": "http://maxedu.in/",
-            "status": "ongoing"
+            "name": "Way2Grow",
+            "description": "Hydroponics for Agriculture",
+            "logo": "public/images/startups/ongoing/way2grow.jpg",
+            "tag": "AgriTech",
+            "website": "https://way2grow.tech/",
+            "status": "ongoing",
+            "seedSupport": false
+        },
+        {
+            "name": "Extech Innovations PVT. LTD.",
+            "description": "Industrial Computer Vision & Solutions",
+            "logo": "public/images/startups/ongoing/extech.jpg",
+            "tag": "IT/ITC",
+            "website": "",
+            "status": "ongoing",
+            "seedSupport": false
         },
         {
             "name": "OLOG Logistics, Chennai",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
-            "logo": "public/images/startups/graduated/fr8.png",
-            "tag": "Category 1",
-            "website": "https://www.fr8.in/#/",
-            "status": "graduated"
-        },
-        {
-            "name": "CUEDIO Technologies, Hyderabad",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
-            "logo": "public/images/startups/graduated/cuedio.png",
-            "tag": "Category 2",
-            "website": "http://www.cuedio.com/",
-            "status": "graduated"
+            "description": "Automated trucking operations right from ordering to billing.",
+            "logo": "public/images/startups/graduated/fr8.jpg",
+            "tag": "Others",
+            "website": "https://www.fr8.in/",
+            "status": "graduated",
+            "seedSupport": false
         },
         {
             "name": "Cavintek, Chennai",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
-            "logo": "public/images/startups/graduated/cavintek.png",
-            "tag": "Category 3",
+            "description": "Deliver simple and smart solutions to SMBs and Enterprises through smart SaaS(Software as a Service) products.",
+            "logo": "public/images/startups/graduated/cavintek.jpg",
+            "tag": "IT/ITC",
             "website": "http://www.cavintek.com/",
-            "status": "graduated"
+            "status": "graduated",
+            "seedSupport": false
+        },
+        {
+            "name": "CUEDIO Technologies LLP",
+            "description": "Offer P2P communication platforms to SMBs that can deliver integrated or OEMed remote customer assistance solutions.",
+            "logo": "public/images/startups/graduated/cuedio.jpg",
+            "tag": "IT/ITC",
+            "website": "http://www.cuedio.com/",
+            "status": "graduated",
+            "seedSupport": false
+        },
+        {
+            "name": "CY4 PVT. LTD.",
+            "description": "Deal with electrical vehicle technology, IoT, digital twin and manufacturing services and provide affordable manufacturing services.",
+            "logo": "public/images/startups/ongoing/cy4.jpg",
+            "tag": "IOT",
+            "website": "",
+            "status": "ongoing",
+            "seedSupport": false
+        },
+        {
+            "name": "CAD MAcRO, Chennai",
+            "description": "CAD MAcRO is an established developer of innovative CAD/CAM products such as Wire cut software (Wire EDM) and other Customized Engineering Solutions.",
+            "logo": "public/images/startups/ongoing/cadmacro.jpg",
+            "tag": "IOT",
+            "website": "https://www.cadmacro.com/web/index.php",
+            "status": "ongoing",
+            "seedSupport": false
+        },
+        {
+            "name": "Ingens Tech Private Limited",
+            "description": "Comprehensive end-to-end robotic cleaning solution that includes robust cleaning machines, field communication infrastructure, and cloud applications.",
+            "logo": "public/images/startups/ongoing/ingens-tech.jpg",
+            "tag": "CleanTech",
+            "website": "https://www.ingenstech.com",
+            "status": "ongoing",
+            "seedSupport": false
+        },
+        {
+            "name": "VNS ENVIRO BIOTECHQ PVT LTD",
+            "description": "Designs biotechnological solutions and manufactures equipments, products that provide safe and environmentally friendly practices to medium and large industries.",
+            "logo": "public/images/startups/ongoing/vnsenviro.jpg",
+            "tag": "CleanTech",
+            "website": "https://www.vnsenviro.com",
+            "status": "ongoing",
+            "seedSupport": false
+        },
+        {
+            "name": "Thoughtbit Technologies, Chennai",
+            "description": "An intelligent solution that ensures 100% GST compliance for businesses.",
+            "logo": "public/images/startups/ongoing/thoughtbit.jpg",
+            "tag": "FinTech",
+            "website": "http://www.thoughtbit.in/",
+            "status": "ongoing",
+            "seedSupport": false
+        },
+        {
+            "name": "SR Engineering Solutions",
+            "description": "A Design consultancy, Manufacturing, Servicing and Training provider to manufacturing and processing industries.",
+            "logo": "public/images/startups/ongoing/sr-engg.jpg",
+            "tag": "Others",
+            "website": "https://www.srengineeringsolutions.com/",
+            "status": "ongoing",
+            "seedSupport": false
+        },
+        {
+            "name": "Arhunika Engineering Solutions",
+            "description": "Smart Oil Lubricant Systems",
+            "logo": "public/images/startups/ongoing/arhunika.jpg",
+            "tag": "Others",
+            "website": "",
+            "status": "ongoing",
+            "seedSupport": false
         },
         {
             "name": "SSD Controls, Chennai",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut, recusandae quam reiciendis neque voluptatibus mollitia beatae perferendis ipsam tenetur inventore laudantium impedit eius esse qui alias.",
+            "description": "Solution provider in Automation and Electrical drives for the various processes and Industries like mining.",
             "logo": "public/images/startups/graduated/ssd-controls.jpg",
-            "tag": "Category 4",
+            "tag": "Others",
             "website": "http://ssd-controls.com/index.html",
-            "status": "graduated"
+            "status": "graduated",
+            "seedSupport": false
         }
     ]
 }

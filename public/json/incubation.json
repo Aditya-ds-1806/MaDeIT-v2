@@ -1,26 +1,26 @@
 [
     {
         "stage": "Pre-Incubation",
-        "description": "Initial screening of application"
+        "description": "Bring in potential start-up ideas, & build on the idea to test feasibility and necessity of the idea. After a certain period of time, applications will be screened, based on a variety of factors."
     },
     {
         "stage": "Enrolment",
-        "description": "Business Plan Evaluation"
+        "description": "This phase supports the establishment & growth of your start-up idea, & we provide key mentorship that you require."
     },
     {
         "stage": "Design Enablement",
-        "description": "Design of Product Architecture"
+        "description": "From design to planning for functional production issues, Design Enablement takes a human-centered approach to solving business challenges while creating a positive experience for end-users."
     },
     {
         "stage": "Seed Funding",
-        "description": "Contract of seed funds"
+        "description": "In this phase, You will be pitching your ideas and You can request the fund required for your concept and MaDeIt will provide you the seed funding to your company."
     },
     {
         "stage": "Accelerate Product",
-        "description": "Rapid Prototyping"
+        "description": "It’s the process in which your prototype will be refined and will be made into a product which ultimately the end user will receive. "
     },
     {
         "stage": "Exit/Extension",
-        "description": "Viable and scalable business"
+        "description": "At this stage, the incubation process will be complete and your company will be in a position to provide a viable and scalable business."
     }
 ]
