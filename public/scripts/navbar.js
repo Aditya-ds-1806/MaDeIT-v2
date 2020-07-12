@@ -4,14 +4,12 @@ var yOffset = Number(navStyles.marginTop.slice(0, -2)) + Number(navStyles.paddin
 
 navbarPosControl();
 navbarWidthControl();
-resolveStickyFooter();
 
 
 window.addEventListener('resize', function (e) {
     e.preventDefault();
     navbarWidthControl();
     navbarPosControl();
-    resolveStickyFooter();
 });
 
 window.addEventListener('scroll', function (e) {
@@ -37,19 +35,4 @@ function navbarPosControl() {
     var bodyWidth = Number(bodyStyles.width.slice(0, -2));
     var freeWidth = bodyWidth - navWidth;
     nav.style.left = (freeWidth / 2).toString() + 'px';
-}
-
-function resolveStickyFooter() {
-    var footerHeight = getFooterHeight();
-    if (footerHeight < window.innerHeight) {
-        document.querySelector('footer').classList.add('fixed-bottom');
-        document.body.style.marginBottom = `${footerHeight}px`;
-    } else {
-        document.querySelector('footer').classList.remove('fixed-bottom');
-        document.body.style.marginBottom = 0;
-    }
-}
-
-function getFooterHeight() {
-    return document.querySelector('footer').offsetHeight;
 }

@@ -9,7 +9,8 @@ if (isset($tag) && $tag === 'seed') {
     $length = count($startups['companies']);
     $var = 'tag';
     $count = -100;
-} else {
+}
+else {
     $param = $status;
     $length = count($startups['companies']);
     $var = 'status';
@@ -29,11 +30,11 @@ if (isset($tag) && $tag === 'seed') {
                     <div class="card-body">
                         <h5 class="card-title text-mountain-meadow mb-0"><?php echo $startups['companies'][$i]['name'] ?></h5>
                         <?php if ($var !== 'status') { ?>
-                            <p class="text-left text-sea-buckthorn font-weight-bolder"><?php echo "Status: " . ucfirst($startups['companies'][$i]['status']) ?></p>
+                            <p class="text-left text-emperor font-weight-bolder"><?php echo "Status: " . ucfirst($startups['companies'][$i]['status']) ?></p>
                         <?php } ?>
                         <p class="card-text"><?php echo $startups['companies'][$i]['description'] ?></p>
                     </div>
-                    <div class="card-footer bg-white text-center border-0">
+                    <div class="card-footer bg-white border-0">
                         <?php if ($startups['companies'][$i]['website'] !== "") { ?>
                             <a class="btn btn-sm btn-mountain-meadow text-white" href="<?php echo $startups['companies'][$i]['website'] ?>" target="_blank">Visit Website <i class="fas fa-globe-americas"></i></a>
                         <?php } ?>

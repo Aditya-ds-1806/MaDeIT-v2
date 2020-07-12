@@ -26,7 +26,7 @@
             <div class="col-sm-5 col-lg-2 text-center text-sm-left mt-5 mt-lg-0">
                 <h6>SITE MAP</h6>
                 <a href="portfolio" class="text-white d-block">Portfolio</a>
-                <a href="people" class="text-white d-block">Teams</a>
+                <a href="people" class="text-white d-block">About us</a>
                 <a href="news" class="text-white d-block">News and Events</a>
                 <h6 class="mt-3">SOCIAL MEDIA</h6>
                 <a href="https://twitter.com/MaDeITInnovati1" target="_blank" class="text-white mr-3"><i class="fab fa-twitter"></i></a>

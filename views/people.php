@@ -6,14 +6,27 @@ $people = json_decode($people, true);
 
 <body class="bg-wild-sand">
     <?php include 'partials/navbar.php' ?>
+    <section class="container-fluid position-relative py-5 px-0 bg-wild-sand" id="about">
+        <div class="container text-center mt-5">
+            <h5 class="text-sea-buckthorn">OUR STORY</h5>
+            <h1>About MaDeIT</h1>
+            <p class="my-4">MaDeIT Innovation Foundation is a non-profit Section 8 company under the Companies Act, 2013. It is a
+                design-driven Technology Business Incubator promoted by the Indian Institute of Information Technology
+                Design and Manufacturing Kancheepuram, an institution of national importance fully funded by the Ministry of
+                Human Resource Development, Govt. of India. MaDeIT Innovation Foundation is supported by a grant from the
+                Department of Science and Technology (NSTEDB Division), Govt. of India. MaDeIT intends build on IIITDM's
+                core capability (IT enabled Design and Manufacturing) to encourage design-driven startups, largely in the
+                manufacturing, healthcare and transportation sectors. It will support startups from IIITDM's students,
+                faculty and the wider ecosystem
+            </p>
+        </div>
+    </section>
     <section class="container-fluid bg-wild-sand">
-        <div class="container text-center mb-5 py-5">
-            <header class="container-fluid d-inline-block text-center mt-5">
-                <div class="pt-5">
-                    <h3 class="text-sea-buckthorn">BEHIND THE SCENES</h3>
+        <div class="container text-center mb-5 pb-5">
+            <header class="container-fluid d-inline-block text-center">
+                <div>
+                    <h5 class="text-sea-buckthorn">BEHIND THE SCENES</h5>
                     <h1>The People</h1>
-                    <p class="w-100 w-md-75 w-lg-50 mx-auto">Developing excellent concepts that are manufacturable and meet your business requirements.
-                    </p>
                 </div>
             </header>
             <div class="row row-cols-1 row-cols-lg-2 my-5 pb-5">
@@ -23,11 +36,10 @@ $people = json_decode($people, true);
                             <img src="<?php echo $people['directors'][$i]['image'] ?>" class="card-img-top rounded-circle img-fluid w-50 mx-auto" alt="<?php echo $people['directors'][$i]['name'] ?>">
                             <div class="card-body">
                                 <h6 class="card-title"><?php echo $people['directors'][$i]['name'] ?></h6>
-                                <p class="card-text text-left"><?php echo $people['directors'][$i]['description'] ?></p>
+                                <p class="card-text text-justify"><?php echo $people['directors'][$i]['description'] ?></p>
                             </div>
-                            <div class="card-footer social text-center bg-white border-0">
-                                <a href="" target="_blank" class="text-sea-buckthorn fa-lg pr-3"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="" target="_blank" class="text-sea-buckthorn fa-lg border-left border-secondary px-3"><i class="fab fa-facebook-f"></i></a>
+                            <div class="card-footer text-left bg-white border-0">
+                                <a href="" target="_blank" class="text-sea-buckthorn fa-lg pr-3 border-right"><i class="fab fa-linkedin-in"></i></a><a href="" target="_blank" class="text-sea-buckthorn text-left fa-lg border-left px-3"><i class="fab fa-facebook-f"></i></a>
                             </div>
                         </div>
                     </div>

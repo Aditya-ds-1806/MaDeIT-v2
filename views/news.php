@@ -7,10 +7,10 @@ $events = json_decode($events, true);
 
 <body class="bg-wild-sand">
     <?php include 'partials/navbar.php' ?>
-    <section class="container-fluid bg-wild-sand">
-        <section class="container pt-5">
-            <header class="container-fluid d-inline-block text-center mt-5">
-                <div class="pt-5">
+    <section class="container-fluid bg-wild-sand py-5 px-0">
+        <section class="container mt-5">
+            <header class="container-fluid d-inline-block text-center">
+                <div>
                     <h1>News and Events</h1>
                     <p class="w-100 w-md-75 w-lg-50 mx-auto mt-4">Developing Excellent concepts that are manufacturable and meet your business requirements.</p>
                 </div>

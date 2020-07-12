@@ -16,6 +16,11 @@ a:hover {
 	text-decoration: none;
 }
 
+*::-moz-selection {
+	background-color: rgb(20, 167, 157);
+	color: #fff;
+}
+
 *::selection {
 	background-color: rgb(20, 167, 157);
 	color: #fff;
@@ -33,6 +38,10 @@ a:hover {
 
 .text-emperor {
 	color: #505050;
+}
+
+.text-wild-sand {
+	color: #f5f5f5;
 }
 
 /* bg colors */

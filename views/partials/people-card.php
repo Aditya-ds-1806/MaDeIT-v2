@@ -8,8 +8,7 @@
                 <p class="card-text"><?php echo $people[$i]['designation'] ?></p>
             </div>
             <div class="card-footer social bg-white border-0">
-                <a href="" target="_blank" class="text-sea-buckthorn fa-lg pr-3"><i class="fab fa-linkedin-in"></i></a>
-                <a href="" target="_blank" class="text-sea-buckthorn fa-lg border-left border-secondary px-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="" target="_blank" class="text-sea-buckthorn fa-lg pr-3 border-right"><i class="fab fa-linkedin-in"></i></a><a href="" target="_blank" class="text-sea-buckthorn fa-lg border-left px-3"><i class="fab fa-facebook-f"></i></a>
             </div>
         </div>
     </div>

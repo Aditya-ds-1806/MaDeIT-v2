@@ -23,7 +23,7 @@ $events = json_decode($events, true);
         <div class="container hero-text text-left text-sm-center">
             <h1 class="display-4 w-50 w-sm-100">Believe. Design. Leap.</h1>
             <p class="d-block my-3 w-75 w-sm-100">MaDeIT is a Design Driven Technology Business Incubator to help startups</p>
-            <a href="#story" class="btn btn-mountain-meadow text-white" data-toggle="modal" data-target="#exampleModal">Watch Our Story</a>
+            <a href="#story" class="btn btn-mountain-meadow text-white mt-4" data-toggle="modal" data-target="#exampleModal">Watch Our Story</a>
         </div>
         <div class="social position-absolute mr-5 hero-social">
             <a href="https://twitter.com/MaDeITInnovati1" target="_blank" class="text-white d-block mb-4"><i class="fab fa-twitter fa-lg"></i></a>
@@ -69,7 +69,7 @@ $events = json_decode($events, true);
                 manufacturing, healthcare and transportation sectors. It will support startups from IIITDM's students,
                 faculty and the wider ecosystem
             </p>
-            <a href="people" class="btn btn-sea-buckthorn text-white">Know More</a>
+            <a href="people" class="btn btn-sea-buckthorn text-white mt-4">Know More</a>
         </div>
         <div class="container-fluid px-0 my-5 py-5">
             <div class="row m-0">
@@ -86,10 +86,10 @@ $events = json_decode($events, true);
                 requirements.</p>
             <ul class="nav nav-pills justify-content-center my-5" id="pills-tab" role="tablist">
                 <li class="nav-item">
-                    <a class="btn btn-outline-mountain-meadow active px-sm-4 py-sm-2 mr-3" id="ongoing" data-toggle="pill" href="#ongoing-tab" role="tab">Ongoing</a>
+                    <a class="btn btn-outline-mountain-meadow active px-sm-4 py-sm-2 mr-2" id="ongoing" data-toggle="pill" href="#ongoing-tab" role="tab">Ongoing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-outline-mountain-meadow px-sm-4 py-sm-2 ml-3" id="graduated" data-toggle="pill" href="#graduated-tab" role="tab">Graduated</a>
+                    <a class="btn btn-outline-mountain-meadow px-sm-4 py-sm-2 ml-2" id="graduated" data-toggle="pill" href="#graduated-tab" role="tab">Graduated</a>
                 </li>
             </ul>
         </header>
@@ -108,14 +108,14 @@ $events = json_decode($events, true);
         </div>
     </section>
 
-    <!-- 5. The Magic -->
+    <!-- 5. INNOVATIONS INVESTED -->
     <section class="container-fluid px-0 py-5 px-0 bg-white">
         <div class="row align-items-center pt-5 mt-5 mr-0">
             <div class="col-md-6 col-lg-5 col-xl-6 px-5 pl-md-0">
                 <img src="public/images/carousel/1.jpg" class="img-fluid w-100">
             </div>
             <div class="col-md-6 col-lg-7 col-xl-5 px-5 mt-5 mt-md-0">
-                <h4 class="text-sea-buckthorn">THE MAGIC</h4>
+                <h4 class="text-sea-buckthorn">INNOVATIONS, INVESTED</h4>
                 <h2>What MaDeIT is sample text</h2>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item py-3 pl-0">Developing Excellent concepts that are manufacturable and meet your business requirements.
@@ -134,7 +134,6 @@ $events = json_decode($events, true);
         <div class="container-md py-5 mb-5">
             <h4 class="text-sea-buckthorn">INCUBATION PROCESS</h4>
             <h2>How does it happen?</h2>
-            <p class="w-100 w-md-50">Developing excellent concepts that are manufacturable and meet your business</p>
             <div class="row row-cols-1 row-cols-sm-2">
                 <?php include 'partials/incubation-card.php' ?>
             </div>
@@ -146,7 +145,6 @@ $events = json_decode($events, true);
         <div class="container py-5 my-5">
             <div class="text-center">
                 <h2>Programmes</h2>
-                <p>Developing excellent concepts that are manufacturable and meet your business</p>
             </div>
             <div class="position-relative mt-5">
                 <?php include 'partials/program-cards.php' ?>
@@ -159,7 +157,6 @@ $events = json_decode($events, true);
     <!-- 8. News and Events -->
     <section class="container-fluid text-center mx-auto py-5 mb-5 bg-white" id="news">
         <h2 class="my-4">News and Events</h2>
-        <p class="w-50 mx-auto">Developing excellent concepts that are manufacturable and meet your business</p>
         <div class="container mb-5">
             <?php include 'partials/news-card.php' ?>
             <a href="news" class="btn btn-outline-emperor text-center px-4 py-2 mb-4">View more</a>

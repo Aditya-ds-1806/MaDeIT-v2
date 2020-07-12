@@ -38,9 +38,10 @@ div.scrolling-wrapper div.card {
 	display: none;
 }
 
-/* IE, edge */
+/* IE, edge, firefox */
 .scrolling-wrapper {
 	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
 
 #programmes i.fa-chevron-circle-left {
