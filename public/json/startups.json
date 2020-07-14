@@ -13,7 +13,7 @@
     "companies": [
         {
             "name": "MAX, Chennai",
-            "description": "Trains students on Virtual and Augment reality with hand’s-on exposure using Unity 3D, ARcore and ARKit",
+            "description": "Drone Detection",
             "logo": "public/images/startups/ongoing/MAX.jpg",
             "website": "http://www.maxvr.in/",
             "tag": "IT/ITC",
@@ -22,7 +22,7 @@
         },
         {
             "name": "Efficienza Business Solutions Pvt Ltd",
-            "description": "Emerging industrial smart automation solutions company that develops Enterprise Mobility, Analytics, IoT, Robotics, Big Data solutions. ",
+            "description": "Solar Panel Cleaning Robot",
             "logo": "public/images/startups/ongoing/Efficienza.jpg",
             "tag": "CleanTech",
             "website": "http://efficienza.in",
@@ -31,7 +31,7 @@
         },
         {
             "name": "DRUMBUFFER ANALYTICS PRIVATE LIMITED",
-            "description": "Provide remote monitoring solutions to industrial customers to improve manufacturing efficiency and reduce cost.",
+            "description": "Energy Analytics",
             "logo": "public/images/startups/ongoing/drumbuffer.jpg",
             "tag": "Others",
             "website": "https://www.drumbuffer.com/",
@@ -40,7 +40,7 @@
         },
         {
             "name": "SCERMLIND Healthcare Innovations Pvt Ltd",
-            "description": "A Fitness/Health Technology startup that uses heart-beat data to arrive at personalized information on Exercise, Training etc.",
+            "description": "Sports Analytics",
             "logo": "public/images/startups/ongoing/urufit.jpg",
             "tag": "MedTech",
             "website": "https://www.urufit.com/",
@@ -49,7 +49,7 @@
         },
         {
             "name": "digi2O Information Solutions, Chennai",
-            "description": "Specializes in building Industrial IoT application solutions for delivering operational intelligence and data-driven manufacturing decision making.",
+            "description": "Automotive Electronics",
             "logo": "public/images/startups/ongoing/digi2O.jpg",
             "tag": "Others",
             "website": "https://www.digi2o.com/",
@@ -58,7 +58,7 @@
         },
         {
             "name": "Sigaram Technologies",
-            "description": "A software product startup that builds scalable software platform applications.",
+            "description": "Smart Speedometer",
             "logo": "public/images/startups/ongoing/sigaram.jpg",
             "tag": "Others",
             "website": "https://www.sigaramtech.com/",
@@ -85,7 +85,7 @@
         },
         {
             "name": "OLOG Logistics, Chennai",
-            "description": "Automated trucking operations right from ordering to billing.",
+            "description": "Logistics",
             "logo": "public/images/startups/graduated/fr8.jpg",
             "tag": "Others",
             "website": "https://www.fr8.in/",
@@ -94,7 +94,7 @@
         },
         {
             "name": "Cavintek, Chennai",
-            "description": "Deliver simple and smart solutions to SMBs and Enterprises through smart SaaS(Software as a Service) products.",
+            "description": "File Tracking",
             "logo": "public/images/startups/graduated/cavintek.jpg",
             "tag": "IT/ITC",
             "website": "http://www.cavintek.com/",
@@ -103,7 +103,7 @@
         },
         {
             "name": "CUEDIO Technologies LLP",
-            "description": "Offer P2P communication platforms to SMBs that can deliver integrated or OEMed remote customer assistance solutions.",
+            "description": "Digital Imaging",
             "logo": "public/images/startups/graduated/cuedio.jpg",
             "tag": "IT/ITC",
             "website": "http://www.cuedio.com/",
@@ -112,7 +112,7 @@
         },
         {
             "name": "CY4 PVT. LTD.",
-            "description": "Deal with electrical vehicle technology, IoT, digital twin and manufacturing services and provide affordable manufacturing services.",
+            "description": "Home Automation Device",
             "logo": "public/images/startups/ongoing/cy4.jpg",
             "tag": "IOT",
             "website": "",
@@ -121,7 +121,7 @@
         },
         {
             "name": "CAD MAcRO, Chennai",
-            "description": "CAD MAcRO is an established developer of innovative CAD/CAM products such as Wire cut software (Wire EDM) and other Customized Engineering Solutions.",
+            "description": "ERP - IOT for Tool Rooms",
             "logo": "public/images/startups/ongoing/cadmacro.jpg",
             "tag": "IOT",
             "website": "https://www.cadmacro.com/web/index.php",
@@ -130,7 +130,7 @@
         },
         {
             "name": "Ingens Tech Private Limited",
-            "description": "Comprehensive end-to-end robotic cleaning solution that includes robust cleaning machines, field communication infrastructure, and cloud applications.",
+            "description": "Solar Panel Cleaning Robot",
             "logo": "public/images/startups/ongoing/ingens-tech.jpg",
             "tag": "CleanTech",
             "website": "https://www.ingenstech.com",
@@ -139,7 +139,7 @@
         },
         {
             "name": "VNS ENVIRO BIOTECHQ PVT LTD",
-            "description": "Designs biotechnological solutions and manufactures equipments, products that provide safe and environmentally friendly practices to medium and large industries.",
+            "description": "Dewatering System for Vegtable Waste",
             "logo": "public/images/startups/ongoing/vnsenviro.jpg",
             "tag": "CleanTech",
             "website": "https://www.vnsenviro.com",
@@ -148,7 +148,7 @@
         },
         {
             "name": "Thoughtbit Technologies, Chennai",
-            "description": "An intelligent solution that ensures 100% GST compliance for businesses.",
+            "description": "GST Compliance",
             "logo": "public/images/startups/ongoing/thoughtbit.jpg",
             "tag": "FinTech",
             "website": "http://www.thoughtbit.in/",
@@ -157,7 +157,7 @@
         },
         {
             "name": "SR Engineering Solutions",
-            "description": "A Design consultancy, Manufacturing, Servicing and Training provider to manufacturing and processing industries.",
+            "description": "Rotary Union",
             "logo": "public/images/startups/ongoing/sr-engg.jpg",
             "tag": "Others",
             "website": "https://www.srengineeringsolutions.com/",
@@ -175,7 +175,7 @@
         },
         {
             "name": "SSD Controls, Chennai",
-            "description": "Solution provider in Automation and Electrical drives for the various processes and Industries like mining.",
+            "description": "Electrical Drives",
             "logo": "public/images/startups/graduated/ssd-controls.jpg",
             "tag": "Others",
             "website": "http://ssd-controls.com/index.html",

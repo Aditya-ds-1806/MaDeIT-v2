@@ -20,7 +20,7 @@ $startups = json_decode($startups, true);
     }
 
     button[data-toggle="dropdown"] {
-        box-shadow: 0 .5rem 1rem rgb(20, 167, 157, 0.5) !important;
+        box-shadow: 0 .5rem 1rem rgb(20, 167, 157, 0.3) !important;
     }
 
     header {
@@ -34,7 +34,7 @@ $startups = json_decode($startups, true);
 
 <body class="bg-wild-sand">
     <?php include 'partials/navbar.php' ?>
-    <section class="container-fluid bg-wild-sand py-5 px-0 text-center">
+    <section class="container-fluid bg-wild-sand py-5 px-0 text-sm-center">
         <header class="container mt-5 sticky-top">
             <h1>Startups</h1>
             <div class="position-absolute my-2" style="right:0; top:0">
