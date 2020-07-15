@@ -3,7 +3,7 @@
         "title": "Covidya&#8482",
         "isNew": true,
         "description": "MaDeIT is launching a new online program - Covidya&#8482 \"Experiential learning program\"",
-        "href": "#"
+        "href": "public/brochures/COVIDYA.pdf"
     },
     {
         "title": "Startup SANDBOX",
@@ -39,13 +39,13 @@
         "title": "Startup Summer SANDBOX",
         "isNew": false,
         "description": "\"Student Startup Summer SANDBOX and Women Entrepreneurship Program\" on 13th May 2019 - 31st May 2019, Organized by MaDeIT - Last Date to apply May 9th",
-        "href": "public/images/events/brochures/MaDeIT-WED.pdf"
+        "href": "public/brochures/MaDeIT-WED.pdf"
     },
     {
         "title": "Faculty Development Program",
         "isNew": false,
         "description": "\"Faculty Development Program(FDP)\" on 13th May 2019 -17thMay 2019, Organized by MaDeIT",
-        "href": "public/images/events/brochures/MaDeIT-FDP-2019.pdf"
+        "href": "public/brochures/MaDeIT-FDP-2019.pdf"
     },
     {
         "title": "CII",
@@ -63,7 +63,7 @@
         "title": "Block Chain Workshop",
         "isNew": false,
         "description": "\"Block Chain Workshop\" on 2nd, 3rd February 2019, IIITDM Kancheepuram Campus",
-        "href": "public/images/events/brochures/Blockchain.pdf"
+        "href": "public/brochures/Blockchain.pdf"
     },
     {
         "title": "Board Meeting",
@@ -75,7 +75,7 @@
         "title": "Startup SANDBOX",
         "isNew": false,
         "description": "\"Startup SANDBOX\" on 03rd December 2018 - 21st December 2018, Organized by MaDeIT - Last Date to apply Nov 20th",
-        "href": "public/images/events/brochures/Startup-Sandbox.pdf"
+        "href": "public/brochures/Startup-Sandbox.pdf"
     },
     {
         "title": "CII",
@@ -93,13 +93,13 @@
         "title": "Kashi Labh",
         "isNew": false,
         "description": "\"Kashi Labh\" - A Documentary film by Rajat Nayyar on 18th August 2018 (Register for FREE)",
-        "href": "public/images/events/brochures/kashi.pdf"
+        "href": "public/brochures/kashi.pdf"
     },
     {
         "title": "Biomimicry",
         "isNew": false,
         "description": "\"Biomimicry\" Nature inspired Design Thinking and Innovation on 04th August 2018 - Last Date 30th July 2018.",
-        "href": "public/images/events/brochures/biod.pdf"
+        "href": "public/brochures/biod.pdf"
     },
     {
         "title": "One-Day Workshop",
@@ -117,7 +117,7 @@
         "title": "ACMEE 2018",
         "isNew": false,
         "description": "ACMEE 2018 - 13th International Machine Tools Exhibition on 21st to 25th June 2018 at Chennai Trade Center.",
-        "href": "public/images/events/brochures/AIEMA.pdf"
+        "href": "public/brochures/AIEMA.pdf"
     },
     {
         "title": "HACKATHON",

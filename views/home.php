@@ -64,14 +64,14 @@ $carousel = json_decode($carousel, true);
         <div class="container text-center mt-5 py-5">
             <h5 class="text-sea-buckthorn">OUR STORY</h5>
             <h2>About MaDeIT</h2>
-            <p class="my-4">MaDeIT Innovation Foundation is a non-profit Section 8 company under the Companies Act, 2013. It is a
+            <p class="my-4 lh-30px">MaDeIT Innovation Foundation is a non-profit Section 8 company under the Companies Act, 2013. It is a
                 design-driven Technology Business Incubator promoted by the Indian Institute of Information Technology
                 Design and Manufacturing Kancheepuram, an institution of national importance fully funded by the Ministry of
                 Human Resource Development, Govt. of India. MaDeIT Innovation Foundation is supported by a grant from the
                 Department of Science and Technology (NSTEDB Division), Govt. of India. MaDeIT intends build on IIITDM's
                 core capability (IT enabled Design and Manufacturing) to encourage design-driven startups, largely in the
                 manufacturing, healthcare and transportation sectors. It will support startups from IIITDM's students,
-                faculty and the wider ecosystem
+                faculty and the wider ecosystem.
             </p>
             <a href="people" class="btn btn-sea-buckthorn text-white mt-4">Know More</a>
         </div>

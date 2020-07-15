@@ -65,10 +65,6 @@ div.scrolling-wrapper div.card {
 	background-color: rgb(20, 167, 157);
 }
 
-#about p {
-	line-height: 30px;
-}
-
 span.badge {
 	position: absolute;
 	top: -5px;

@@ -43,6 +43,9 @@ body {
 	color: #505050;
 }
 
+.lh-30px {
+	line-height: 30px;
+}
 
 a:hover {
 	text-decoration: none;
