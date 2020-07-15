@@ -1,9 +1,8 @@
 const wrapper = document.querySelectorAll('div.scrolling-wrapper');
 var card = document.querySelectorAll('div.scrolling-wrapper div.card')[2];
 var prevCard = document.querySelectorAll('div.scrolling-wrapper div.card')[1];
-var left = document.querySelector('i.fa-chevron-circle-left');
-var right = document.querySelector('i.fa-chevron-circle-right');
-
+var left = document.querySelector('span.fa-chevron-circle-left');
+var right = document.querySelector('span.fa-chevron-circle-right');
 
 window.addEventListener('load', function (e) {
     e.preventDefault();

@@ -13,6 +13,10 @@ $incubation = json_decode($incubation, true);
 
 $events = file_get_contents('public/json/events.json', true);
 $events = json_decode($events, true);
+
+$carousel = file_get_contents('public/json/carousel.json', true);
+$carousel = json_decode($carousel, true);
+
 ?>
 
 
@@ -25,10 +29,10 @@ $events = json_decode($events, true);
             <p class="d-block my-3 w-75 w-sm-100">MaDeIT is a Design Driven Technology Business Incubator to help startups</p>
             <a href="#story" class="btn btn-mountain-meadow text-white mt-4" data-toggle="modal" data-target="#exampleModal">Watch Our Story</a>
         </div>
-        <div class="social position-absolute mr-5 hero-social">
-            <a href="https://twitter.com/MaDeITInnovati1" target="_blank" class="text-white d-block mb-4"><i class="fab fa-twitter fa-lg"></i></a>
-            <a href="https://www.facebook.com/madeit.iiitdm.kancheepuram/" target="_blank" class="text-white d-block my-4"><i class="fab fa-facebook-f fa-lg"></i></a>
-            <a href="https://in.linkedin.com/in/madeit-innovation-foundation-066b74193" target="_blank" class="text-white d-block mb-4"><i class="fab fa-linkedin-in fa-lg"></i></a>
+        <div class="social position-absolute hero-social">
+            <a rel="noreferrer" href="https://twitter.com/MaDeITInnovati1" target="_blank" class="twitter text-white fa-lg d-block mb-5" aria-label="twitter"></a>
+            <a rel="noreferrer" href="https://www.facebook.com/madeit.iiitdm.kancheepuram/" target="_blank" class="facebook fa-lg text-white d-block my-5" aria-label="facebook"></a>
+            <a rel="noreferrer" href="https://in.linkedin.com/in/madeit-innovation-foundation-066b74193" target="_blank" class="linkedin fa-lg text-white d-block mt-5" aria-label="linkedin"></a>
         </div>
     </header>
 
@@ -112,10 +116,10 @@ $events = json_decode($events, true);
     <section class="container-fluid px-0 py-5 px-0 bg-white">
         <div class="row align-items-center pt-5 mt-5 mr-0">
             <div class="col-md-6 col-lg-5 col-xl-6 px-5 pl-md-0">
-                <img src="public/images/carousel/1.jpg" class="img-fluid w-100">
+                <img loading="lazy" alt="image" src="public/images/carousel/1.jpg" class="img-fluid w-100">
             </div>
             <div class="col-md-6 col-lg-7 col-xl-5 px-5 mt-5 mt-md-0">
-                <h4 class="text-sea-buckthorn">INNOVATIONS, INVESTED</h4>
+                <h4 class="text-sea-buckthorn">INNOVATIONS INVESTED</h4>
                 <h2>What MaDeIT is sample text</h2>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item py-3 pl-0">Developing Excellent concepts that are manufacturable and meet your business requirements.
@@ -148,16 +152,16 @@ $events = json_decode($events, true);
             </div>
             <div class="position-relative mt-5">
                 <?php include 'partials/program-cards.php' ?>
-                <i class="fa fa-chevron-circle-left rounded-circle position-absolute text-mountain-meadow bg-white fa-3x"></i>
-                <i class="fa fa-chevron-circle-right rounded-circle position-absolute text-mountain-meadow bg-white fa-3x"></i>
+                <span class="fa fa-chevron-circle-left rounded-circle position-absolute text-mountain-meadow bg-white fa-3x"></span>
+                <span class="fa fa-chevron-circle-right rounded-circle position-absolute text-mountain-meadow bg-white fa-3x"></span>
             </div>
         </div>
     </section>
 
     <!-- 8. News and Events -->
     <section class="container-fluid text-center mx-auto py-5 mb-5 bg-white" id="news">
-        <h2 class="my-4">News and Events</h2>
-        <div class="container mb-5">
+        <div class="container mb-5 pt-5">
+            <h2 class="my-4">News and Events</h2>
             <?php include 'partials/news-card.php' ?>
             <a href="news" class="btn btn-outline-emperor text-center px-4 py-2 mb-4">View more</a>
         </div>

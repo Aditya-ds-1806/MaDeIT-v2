@@ -5,7 +5,7 @@ window.addEventListener('load', function (e) {
         interval: 5000,
         keyboard: false,
         pause: false,
-        touch: true
+        touch: false
     };
     for (let i = 0; i < 3; i++) {
         $('#carousel' + (i + 1)).carousel(options);

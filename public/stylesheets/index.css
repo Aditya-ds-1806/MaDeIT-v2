@@ -17,8 +17,8 @@ div.hero-text {
 }
 
 div.hero-social {
-	right: 10px;
-	top: calc(50% - 56.57px);
+	right: 60px;
+	top: calc(50vh - 8%);
 }
 
 div.scrolling-wrapper {
@@ -44,7 +44,7 @@ div.scrolling-wrapper div.card {
 	scrollbar-width: none;
 }
 
-#programmes i.fa-chevron-circle-left {
+#programmes span.fa-chevron-circle-left {
 	width: 40px;
 	height: 40px;
 	top: calc(50% - 20px);
@@ -52,7 +52,7 @@ div.scrolling-wrapper div.card {
 	cursor: pointer;
 }
 
-#programmes i.fa-chevron-circle-right {
+#programmes span.fa-chevron-circle-right {
 	width: 40px;
 	height: 40px;
 	top: calc(50% - 20px);

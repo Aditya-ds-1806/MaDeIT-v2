@@ -86,7 +86,7 @@ $programs = json_decode($programs, true);
             </ul>
             <div class="mt-5 mb-3">
                 <a href="public/brochures/Nidhi_PRAYAS_Brochure.pdf" target="_blank" class="btn btn-sea-buckthorn text-white mr-4">Download Brochure</a>
-                <a href="https://forms.gle/2txRVa4Zsa7oaeaX9" target="_blank" class="btn btn-sea-buckthorn text-white ">Apply</a>
+                <a rel="noreferrer" href="https://forms.gle/2txRVa4Zsa7oaeaX9" target="_blank" class="btn btn-sea-buckthorn text-white ">Apply</a>
             </div>
         </section>
     </section>

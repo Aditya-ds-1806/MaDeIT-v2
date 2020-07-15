@@ -3,7 +3,7 @@
         <div class="col mb-4">
             <div class="card border-mountain-meadow text-left h-100">
                 <div class="card-body">
-                    <a href="<?php echo $events[$j]['href'] ?>">
+                    <a rel="noreferrer" href="<?php echo $events[$j]['href'] ?>">
                         <h5 class="card-title text-dark"><?php echo $events[$j]['title'] ?>
                             <?php if ($events[$j]['isNew']) { ?>
                                 <span class="badge bg-mountain-meadow text-white postion-absolute">New</span>

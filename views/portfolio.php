@@ -39,7 +39,7 @@ $startups = json_decode($startups, true);
             <h1>Startups</h1>
             <div class="position-absolute my-2" style="right:0; top:0">
                 <div class="dropdown container text-center">
-                    <button class="btn btn-mountain-meadow text-white dropdown-toggle text-right rounded-pill" type="button" id="dropdownMenuButton" data-toggle="dropdown">IOT<i class="fas fa-filter pl-3"></i></button>
+                    <button class="btn btn-mountain-meadow text-white dropdown-toggle text-right rounded-pill" type="button" id="dropdownMenuButton" data-toggle="dropdown">IOT<span class="fas filter pl-3"></span></button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <?php for ($i = 0; $i < count($startups['tags']); $i++) { ?>
                             <?php $tag = str_replace([' ', '/'], '-', $startups['tags'][$i]) ?>
@@ -85,7 +85,7 @@ $startups = json_decode($startups, true);
             this.classList.remove('active');
         });
         $('a[data-toggle="tab"]').on('click', function() {
-            $('button[data-toggle="dropdown"]').html($.trim(this.text) + '<i class="fas fa-filter pl-3"></i>');
+            $('button[data-toggle="dropdown"]').html($.trim(this.text) + '<span class="fas filter pl-3"></span>');
         });
 
         const observer = new IntersectionObserver(e => {

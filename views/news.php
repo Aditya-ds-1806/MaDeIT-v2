@@ -12,23 +12,21 @@ $events = json_decode($events, true);
             <header class="container-fluid d-inline-block text-center">
                 <div>
                     <h1>News and Events</h1>
-                    <p class="w-100 w-md-75 w-lg-50 mx-auto mt-4">Developing Excellent concepts that are manufacturable and meet your business requirements.</p>
                 </div>
             </header>
             <div class="container-fluid my-5 pb-5 text-center">
                 <ul class="list-group list-group-flush text-left py-5">
                     <?php for ($i = 0; $i < count($events); $i++) { ?>
-                        <?php if ($events[$i]['isNew']) { ?>
-                            <li class="list-group-item bg-wild-sand pl-0 pt-4">
-                                <h5 class="text-sea-buckthorn"><?php echo $events[$i]['title'] ?><span class="badge bg-sea-buckthorn text-white float-right">New</span></h5>
-                                <p><?php echo $events[$i]['description'] ?></p>
-                            </li>
-                        <?php } else { ?>
-                            <li class="list-group-item bg-wild-sand pl-0 pt-4">
-                                <h5 class="text-sea-buckthorn"><?php echo $events[$i]['title'] ?></h5>
-                                <p><?php echo $events[$i]['description'] ?></p>
-                            </li>
-                        <?php } ?>
+                        <li class="list-group-item bg-wild-sand pl-0 pt-4">
+                            <a href="<?php echo $events[$i]['href'] ?>" class="href">
+                                <h5 class="text-sea-buckthorn"><?php echo $events[$i]['title'] ?>
+                                    <?php if ($events[$i]['isNew']) { ?>
+                                        <span class="badge bg-sea-buckthorn text-white float-right">New</span>
+                                    <?php } ?>
+                                </h5>
+                            </a>
+                            <p><?php echo $events[$i]['description'] ?></p>
+                        </li>
                     <?php } ?>
                 </ul>
             </div>

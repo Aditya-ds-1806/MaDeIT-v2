@@ -12,18 +12,26 @@
     <!-- For iOS Safari  -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <!-- SEO -->
+    <meta name="description" content="MaDeIT Innovation Foundation is a design-driven Technology Business Incubator promoted by the Indian Institute of Information Technology Design and Manufacturing Kancheepuram, an institution of national importance fully funded by the Ministry of Human Resource Development, Govt. of India.">
+    <meta name="keywords" content="MaDeIT Innovation Foundation,IIITDM incubation,List of incubation centres in chennai,startup funding india,incubate fund,Incubators in chennai,iiitdm incubation cell,Startup company,Design Driven Technology, Business Incubator,Startup India,business plan chennai
+innovation centre,incubators chennai,creative incubation,Startup chennai,incubation chennai,innovation incubator in chennai,incubation centre chennai,startup incubation in chennai,startup india in chennai,incubation centers in chennai
+Startup incubators chennai,Startup India,innovation and incubation,entrepreneur incubator,innovation incubator,startup incubators in india">
+    <!-- Pre connect to other domains -->
+    <link rel="dns-prefetch" href="https://www.youtube.com">
+    <link rel="dns-prefetch" href="https://i.ytimg.com">
+    <link rel="dns-prefetch" href="https://yt3.ggpht.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
     <!-- Bootstrap 4.4.1-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- Fontawesome Icon Library 5.9.0 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" integrity="sha256-PF6MatZtiJ8/c9O9HQ8uSUXr++R9KBYu4gbNG5511WE=" crossorigin="anonymous" />
+    <link rel="preload" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" as="style" type="text/css" onload="this.rel='stylesheet'" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" as="style" type="text/css" onload="this.rel='stylesheet'" crossorigin>
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="public/stylesheets/common.css">
-    <link rel="stylesheet" href="public/stylesheets/theme.css">
+    <link rel="preload" href="public/stylesheets/theme.css" as="style" type="text/css" onload="this.rel='stylesheet'">
+
 
     <?php if (isset($route) && $route == 'index') { ?>
-        <link rel="stylesheet" href="public/stylesheets/index.css">
+        <link rel="preload" href="public/stylesheets/index.css" as="style" type="text/css" onload="this.rel='stylesheet'">
     <?php } ?>
     <title>MaDeIT Innovation Foundation</title>
 </head>

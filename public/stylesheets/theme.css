@@ -1,3 +1,32 @@
+@font-face {
+	font-family: 'fab';
+	font-weight: normal;
+	font-size: normal;
+	src:
+		url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/webfonts/fa-brands-400.woff2') format("woff2"),
+		url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/webfonts/fa-brands-400.woff') format("woff"),
+		url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/webfonts/fa-brands-400.ttf') format("truetype");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'fas';
+	font-weight: normal;
+	font-size: normal;
+	src:
+		url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/webfonts/fa-solid-900.woff2') format("woff2"),
+		url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/webfonts/fa-solid-900.woff') format("woff"),
+		url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/webfonts/fa-solid-900.ttf') format("truetype");
+	font-display: swap;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -10,7 +39,10 @@ h6 {
 body {
 	font-weight: 400;
 	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+	color: #505050;
 }
+
 
 a:hover {
 	text-decoration: none;
@@ -131,6 +163,86 @@ a.text-sea-buckthorn:hover {
 	position: absolute;
 	right: -8px;
 	top: -8px;
+}
+
+div.contact a:hover {
+	text-decoration: none;
+}
+
+.card-img-top {
+	-o-object-fit: contain;
+	object-fit: contain;
+}
+
+footer input.form-control:focus {
+	border-color: rgb(247, 152, 39);
+	box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, .5);
+}
+
+.fa,
+.fas,
+.far,
+.fal,
+.fab {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: auto;
+	line-height: 1;
+}
+
+.globe::after {
+	font-family: fas;
+	content: "  \f57d";
+}
+
+.filter::before {
+	font-family: fas;
+	content: "\f0b0";
+}
+
+.fa-chevron-circle-left::before {
+	font-family: fas;
+	content: "\f137";
+}
+
+.fa-chevron-circle-right::before {
+	font-family: fas;
+	content: "\f138";
+}
+
+.phone::before {
+	font-family: fas;
+	content: "\f879  ";
+}
+
+.mail::before {
+	font-family: fas;
+	content: "\f0e0  ";
+}
+
+.twitter::before {
+	font-family: fab;
+	content: "\f099";
+}
+
+.facebook::before {
+	font-family: fab;
+	content: "\f39e";
+}
+
+.linkedin::before {
+	font-family: fab;
+	content: "\f0e1";
+}
+
+.fa-lg {
+	font-size: 1.33333em;
+	line-height: 0.75em;
+	vertical-align: -.0667em;
+}
+
+.fa-3x {
+	font-size: 3em;
 }
 
 @media (min-width: 576px) {

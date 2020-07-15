@@ -8,7 +8,7 @@
         {
             "name": "Dr. Sudhir Varadarajan",
             "description": "Dr. Varadarajan is the Dean (Design, Innovation & Incubation) at IIITDM Kancheepuram. He has 22+ years of experience in design & innovation management in the IT industry. He has strong expertise in management and IT consulting, and rich and varied experience in R&D, practice development, strategic marketing and consulting to Fortune 500 Clients. He is also the author of a book titled Managing Nothing: A narrative inquiry into innovation and leadership in the IT industry (2015).",
-            "image": "public/images/people/sudhir.jpeg"
+            "image": "public/images/people/sudhir.jpg"
         }
     ],
     "advisoryBoard": [
@@ -40,12 +40,12 @@
         {
             "name": "Mr. Sekar Ganesan",
             "designation": "Independent Consultant (Information Technology)",
-            "image": "public/images/people/sekar_ganesan.png"
+            "image": "public/images/people/sekar_ganesan.jpg"
         },
         {
             "name": "Dr. Venkatesh G",
             "designation": "Founder & CEO of Mylspot Education Services Private Ltd., Analog Devices Chair Professor at the Dept. of Electrical Engineering, IIT Madras",
-            "image": "public/images/people/venkatesh.png"
+            "image": "public/images/people/venkatesh.jpg"
         },
         {
             "name": "Mrs. R.V. Shajeevana",
