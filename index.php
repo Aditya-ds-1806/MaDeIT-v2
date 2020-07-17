@@ -37,6 +37,25 @@ Flight::route('/programme', function () {
     } else Flight::notFound();
 });
 
+Flight::route('/admin', function () {
+    require('views/auth.php');
+    if (isset($_GET['update']) && $_GET['update'] === 'tenders') {
+        require('views/update/tenders.php');
+    } else if (isset($_GET['update']) && $_GET['update'] === 'carousel') {
+        require('views/update/carousel.php');
+    } else if (isset($_GET['update']) && ($_GET['update'] === 'events' || $_GET['update'] === 'news')) {
+        require('views/update/events.php');
+    } else if (isset($_GET['update']) && $_GET['update'] === 'startups') {
+        require('views/update/startups.php');
+    } else if (isset($_GET['update']) && $_GET['update'] === 'people') {
+        require('views/update/people.php');
+    } else if (isset($_GET['update']) && $_GET['update'] === 'programs') {
+        require('views/update/programs.php');
+    } else {
+        require('views/admin.php');
+    }
+});
+
 Flight::route('*', function () {
     require('views/home.php');
     Flight::notFound();

@@ -20,9 +20,9 @@
                 <li class="nav-item mx-1 mx-lg-4 my-auto">
                     <a class="nav-link" href="home#portfolio">Our Portfolio</a>
                 </li>
-                <!-- <li class="nav-item mx-1 mx-lg-4 my-auto">
+                <li class="nav-item mx-1 mx-lg-4 my-auto">
                     <a class="nav-link" href="home#programmes">Programmes</a>
-                </li> -->
+                </li>
                 <li class="nav-item mx-1 mx-lg-4 my-auto">
                     <a class="nav-link" href="home#news">News and Events</a>
                 </li>
@@ -36,9 +36,9 @@
                 <li class="nav-item mx-1 mx-lg-4 my-auto">
                     <a class="nav-link" href="portfolio">Portfolio</a>
                 </li>
-                <li class="nav-item mx-1 mx-lg-4 my-auto">
+                <!-- <li class="nav-item mx-1 mx-lg-4 my-auto">
                     <a class="nav-link" href="#">Programmes</a>
-                </li>
+                </li> -->
                 <li class="nav-item mx-1 mx-lg-4 my-auto">
                     <a class="nav-link" href="news">News</a>
                 </li>

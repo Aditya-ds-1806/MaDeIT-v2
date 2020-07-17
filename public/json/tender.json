@@ -1,37 +1,37 @@
 [
     {
         "title": "Supply, Solidworks Flow Simulation Software",
-        "tenderNo": "MaDeIT/19-20/T&E/Flow Simulation/004 Dt. 01.01.2020",
+        "tenderNo": "MaDeIT/19-20/T&E/Flow Simulation/004",
         "date": "01/01/2020",
-        "lastDate": "08/01/2020, 15 Hrs",
+        "lastDate": "08/01/2020, 15:00 Hrs",
         "noticeURL": "public/tenders/Solidworks_Flow_Simulation_Software.pdf"
     },
     {
         "title": "Supply, Multilayer PCB Machine",
-        "tenderNo": "MaDeIT/19-20/T&E/PCB Machine/003 Dt. 14.11.2019",
+        "tenderNo": "MaDeIT/19-20/T&E/PCB Machine/003",
         "date": "14/11/2019",
-        "lastDate": "27/11/2019, 15 Hrs",
+        "lastDate": "27/11/2019, 15:00 Hrs",
         "noticeURL": "public/tenders/PCB_Machine.pdf"
     },
     {
         "title": "Supply, 3D Scanner",
-        "tenderNo": "MaDeIT/19-20/T&E/3D_Scanner/002 Dt. 25.09.2019",
+        "tenderNo": "MaDeIT/19-20/T&E/3D_Scanner/002",
         "date": "25/09/2019",
-        "lastDate": "11/10/2019, 15 Hrs",
+        "lastDate": "11/10/2019, 15:00 Hrs",
         "noticeURL": "public/tenders/3D_Scanner.pdf"
     },
     {
         "title": "Supply, Furniture",
-        "tenderNo": "MaDeIT/19-20/OE/Furniture/001 Dt. 25.09.2019",
+        "tenderNo": "MaDeIT/19-20/OE/Furniture/001",
         "date": "25/09/2019",
-        "lastDate": "10/10/2019, 15 Hrs",
+        "lastDate": "10/10/2019, 15:00 Hrs",
         "noticeURL": "public/tenders/Furniture.pdf"
     },
     {
         "title": "Supply, Multilayer PCB Machine",
-        "tenderNo": "MaDeIT/19-20/T&E/PCB Machine/001 Dt. 22.08.2019",
+        "tenderNo": "MaDeIT/19-20/T&E/PCB Machine/001",
         "date": "22/08/2019",
-        "lastDate": "6/09/2019, 15 Hrs",
+        "lastDate": "6/09/2019, 15:00 Hrs",
         "noticeURL": "public/tenders/MultilayerPCBMachine.pdf"
     }
 ]
