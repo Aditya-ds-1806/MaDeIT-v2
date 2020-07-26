@@ -1,1 +1,30 @@
-[{"path":"public/images/carousel/2.jpg","alt":"img1"},{"path":"public/images/carousel/3.jpg","alt":"img2"},{"path":"public/images/carousel/4.jpg","alt":"img3"},{"path":"public/images/carousel/5.jpg","alt":"img4"},{"path":"public/images/carousel/6.jpg","alt":"img5"},{"path":"public/images/carousel/7.jpg","alt":"img6"},{"path":"public/images/carousel/8.jpg","alt":"img7"}]
+[
+    {
+        "fileName": "2.jpg",
+        "alternateName": "img1"
+    },
+    {
+        "fileName": "3.jpg",
+        "alternateName": "img2"
+    },
+    {
+        "fileName": "4.jpg",
+        "alternateName": "img3"
+    },
+    {
+        "fileName": "5.jpg",
+        "alternateName": "img4"
+    },
+    {
+        "fileName": "6.jpg",
+        "alternateName": "img5"
+    },
+    {
+        "fileName": "7.jpg",
+        "alternateName": "img6"
+    },
+    {
+        "fileName": "8.jpg",
+        "alternateName": "img7"
+    }
+]

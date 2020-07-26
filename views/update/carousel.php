@@ -110,16 +110,16 @@
                     items: {
                         type: "object",
                         properties: {
-                            path: {
+                            fileName: {
                                 type: "string"
                             },
-                            alt: {
+                            alternateName: {
                                 type: "string"
                             }
                         },
                         minProperties: Object.keys(images[0]).length,
                         maxProperties: Object.keys(images[0]).length,
-                        required: ["path", "alt"]
+                        required: ["fileName", "alternateName"]
                     }
                 },
                 onValidate: function(images) {
