@@ -101,7 +101,7 @@
             const programs = await res.json();
             const editor = new JSONEditor(container, {
                 mode: 'tree',
-                name: 'tenders',
+                name: 'Programs',
                 enableSort: false,
                 enableTransform: false,
                 limitDragging: true,
