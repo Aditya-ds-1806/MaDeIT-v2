@@ -9,7 +9,7 @@ $length = count($startups['companies']);
                     <div>
                         <span class="badge bg-mountain-meadow text-white position-absolute p-2 m-3" style="top: 10px; right:10px"><?php echo $startups['companies'][$j]['tag'] ?></span>
                     </div>
-                    <img loading="lazy" src="<?php echo $startups['companies'][$j]['logo'] ?>" class="card-img-top" alt="<?php echo $startups['companies'][$j]['name'] ?>" height="200px">
+                    <img loading="lazy" src="<?php echo "public/images/startups/" . $startups['companies'][$j]['status'] . "/" . $startups['companies'][$j]['fileName'] ?>" class="card-img-top" alt="<?php echo $startups['companies'][$j]['name'] ?>" height="200px">
                     <div class="card-body">
                         <h5 class="card-title text-mountain-meadow mb-0"><?php echo $startups['companies'][$j]['name'] ?></h5>
                         <p class="text-left text-emperor font-weight-bolder"><?php echo "Status: " . ucfirst($startups['companies'][$j]['status']) ?></p>
@@ -22,7 +22,6 @@ $length = count($startups['companies']);
                     </div>
                 </div>
             </div>
-        <?php //$count++;
-        } ?>
+        <?php } ?>
     <?php } ?>
 </div>

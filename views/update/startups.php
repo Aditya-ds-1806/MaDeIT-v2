@@ -153,7 +153,7 @@
                                 },
                                 minProperties: Object.keys(startups.companies[0]).length,
                                 maxProperties: Object.keys(startups.companies[0]).length,
-                                required: ["name", "description", "logo", "tag", "status", "seedSupport"]
+                                required: ["name", "description", "fileName", "tag", "status", "seedSupport"]
                             }
                         },
                     },
