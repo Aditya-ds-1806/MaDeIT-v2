@@ -116,7 +116,7 @@
                             description: {
                                 type: "string"
                             },
-                            image: {
+                            fileName: {
                                 type: "string"
                             },
                             url: {

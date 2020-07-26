@@ -134,7 +134,7 @@
                                     description: {
                                         type: "string"
                                     },
-                                    logo: {
+                                    fileName: {
                                         type: "string"
                                     },
                                     website: {
