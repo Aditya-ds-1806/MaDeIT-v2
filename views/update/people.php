@@ -119,7 +119,7 @@
                                     description: {
                                         type: "string"
                                     },
-                                    image: {
+                                    fileName: {
                                         type: "string"
                                     }
                                 },
@@ -139,7 +139,7 @@
                                     description: {
                                         type: "string"
                                     },
-                                    image: {
+                                    fileName: {
                                         type: "string"
                                     }
                                 },

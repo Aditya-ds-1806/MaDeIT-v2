@@ -33,7 +33,7 @@ $people = json_decode($people, true);
                 <?php for ($i = 0; $i < count($people['directors']); $i++) { ?>
                     <div class="col mb-5 my-lg-0">
                         <div class="card border-0 px-1 py-3 p-sm-5 mx-2 ml-lg-3 ml-xl-5 shadow h-100">
-                            <img loading="lazy" alt="<?php echo $people['directors'][$i]['name'] ?>" src="<?php echo $people['directors'][$i]['image'] ?>" class="card-img-top rounded-circle img-fluid w-50 mx-auto" alt="<?php echo $people['directors'][$i]['name'] ?>">
+                            <img loading="lazy" alt="<?php echo $people['directors'][$i]['name'] ?>" src="<?php echo "public/images/people/" . $people['directors'][$i]['fileName'] ?>" class="card-img-top rounded-circle img-fluid w-50 mx-auto" alt="<?php echo $people['directors'][$i]['name'] ?>">
                             <div class="card-body">
                                 <h6 class="card-title"><?php echo $people['directors'][$i]['name'] ?></h6>
                                 <p class="card-text text-justify"><?php echo $people['directors'][$i]['description'] ?></p>
