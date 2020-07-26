@@ -1,1 +1,184 @@
-{"tags":["IOT","IT/ITC","MedTech","CleanTech","FinTech","AgriTech","Others","graduated","ongoing"],"companies":[{"name":"MAX, Chennai","description":"Drone Detection","logo":"public/images/startups/ongoing/MAX.jpg","website":"http://www.maxvr.in/","tag":"IT/ITC","status":"ongoing","seedSupport":true},{"name":"Efficienza Business Solutions Pvt Ltd","description":"Solar Panel Cleaning Robot","logo":"public/images/startups/ongoing/Efficienza.jpg","tag":"CleanTech","website":"http://efficienza.in","status":"ongoing","seedSupport":false},{"name":"DRUMBUFFER ANALYTICS PRIVATE LIMITED","description":"Energy Analytics","logo":"public/images/startups/ongoing/drumbuffer.jpg","tag":"Others","website":"https://www.drumbuffer.com/","status":"ongoing","seedSupport":false},{"name":"SCERMLIND Healthcare Innovations Pvt Ltd","description":"Sports Analytics","logo":"public/images/startups/ongoing/urufit.jpg","tag":"MedTech","website":"https://www.urufit.com/","status":"ongoing","seedSupport":false},{"name":"digi2O Information Solutions, Chennai","description":"Automotive Electronics","logo":"public/images/startups/ongoing/digi2O.jpg","tag":"Others","website":"https://www.digi2o.com/","status":"ongoing","seedSupport":true},{"name":"Sigaram Technologies","description":"Smart Speedometer","logo":"public/images/startups/ongoing/sigaram.jpg","tag":"Others","website":"https://www.sigaramtech.com/","status":"ongoing","seedSupport":false},{"name":"Way2Grow","description":"Hydroponics for Agriculture","logo":"public/images/startups/ongoing/way2grow.jpg","tag":"AgriTech","website":"https://way2grow.tech/","status":"ongoing","seedSupport":false},{"name":"Extech Innovations PVT. LTD.","description":"Industrial Computer Vision & Solutions","logo":"public/images/startups/ongoing/extech.jpg","tag":"IT/ITC","website":"","status":"ongoing","seedSupport":false},{"name":"OLOG Logistics, Chennai","description":"Logistics","logo":"public/images/startups/graduated/fr8.jpg","tag":"Others","website":"https://www.fr8.in/","status":"graduated","seedSupport":false},{"name":"Cavintek, Chennai","description":"File Tracking","logo":"public/images/startups/graduated/cavintek.jpg","tag":"IT/ITC","website":"http://www.cavintek.com/","status":"graduated","seedSupport":false},{"name":"CUEDIO Technologies LLP","description":"Digital Imaging","logo":"public/images/startups/graduated/cuedio.jpg","tag":"IT/ITC","website":"http://www.cuedio.com/","status":"graduated","seedSupport":false},{"name":"CY4 PVT. LTD.","description":"Home Automation Device","logo":"public/images/startups/ongoing/cy4.jpg","tag":"IOT","website":"","status":"ongoing","seedSupport":false},{"name":"CAD MAcRO, Chennai","description":"ERP - IOT for Tool Rooms","logo":"public/images/startups/ongoing/cadmacro.jpg","tag":"IOT","website":"https://www.cadmacro.com/web/index.php","status":"ongoing","seedSupport":false},{"name":"Ingens Tech Private Limited","description":"Solar Panel Cleaning Robot","logo":"public/images/startups/ongoing/ingens-tech.jpg","tag":"CleanTech","website":"https://www.ingenstech.com","status":"ongoing","seedSupport":false},{"name":"VNS ENVIRO BIOTECHQ PVT LTD","description":"Dewatering System for Vegtable Waste","logo":"public/images/startups/ongoing/vnsenviro.jpg","tag":"CleanTech","website":"https://www.vnsenviro.com","status":"ongoing","seedSupport":false},{"name":"Thoughtbit Technologies, Chennai","description":"GST Compliance","logo":"public/images/startups/ongoing/thoughtbit.jpg","tag":"FinTech","website":"http://www.thoughtbit.in/","status":"ongoing","seedSupport":false},{"name":"SR Engineering Solutions","description":"Rotary Union","logo":"public/images/startups/ongoing/sr-engg.jpg","tag":"Others","website":"https://www.srengineeringsolutions.com/","status":"ongoing","seedSupport":false},{"name":"Arhunika Engineering Solutions","description":"Smart Oil Lubricant Systems","logo":"public/images/startups/ongoing/arhunika.jpg","tag":"Others","website":"","status":"ongoing","seedSupport":false},{"name":"SSD Controls, Chennai","description":"Electrical Drives","logo":"public/images/startups/graduated/ssd-controls.jpg","tag":"Others","website":"http://ssd-controls.com/index.html","status":"graduated","seedSupport":false}]}
+{
+    "tags": [
+        "IOT",
+        "IT/ITC",
+        "MedTech",
+        "CleanTech",
+        "FinTech",
+        "AgriTech",
+        "Others"
+    ],
+    "companies": [
+        {
+            "name": "MAX, Chennai",
+            "description": "Drone Detection",
+            "logo": "public/images/startups/ongoing/MAX.jpg",
+            "website": "http://www.maxvr.in/",
+            "tag": "IT/ITC",
+            "status": "ongoing",
+            "seedSupport": true
+        },
+        {
+            "name": "Efficienza Business Solutions Pvt Ltd",
+            "description": "Solar Panel Cleaning Robot",
+            "logo": "public/images/startups/ongoing/Efficienza.jpg",
+            "tag": "CleanTech",
+            "website": "http://efficienza.in",
+            "status": "ongoing",
+            "seedSupport": false
+        },
+        {
+            "name": "DRUMBUFFER ANALYTICS PRIVATE LIMITED",
+            "description": "Energy Analytics",
+            "logo": "public/images/startups/ongoing/drumbuffer.jpg",
+            "tag": "Others",
+            "website": "https://www.drumbuffer.com/",
+            "status": "ongoing",
+            "seedSupport": false
+        },
+        {
+            "name": "SCERMLIND Healthcare Innovations Pvt Ltd",
+            "description": "Sports Analytics",
+            "logo": "public/images/startups/ongoing/urufit.jpg",
+            "tag": "MedTech",
+            "website": "https://www.urufit.com/",
+            "status": "ongoing",
+            "seedSupport": false
+        },
+        {
+            "name": "digi2O Information Solutions, Chennai",
+            "description": "Automotive Electronics",
+            "logo": "public/images/startups/ongoing/digi2O.jpg",
+            "tag": "Others",
+            "website": "https://www.digi2o.com/",
+            "status": "ongoing",
+            "seedSupport": true
+        },
+        {
+            "name": "Sigaram Technologies",
+            "description": "Smart Speedometer",
+            "logo": "public/images/startups/ongoing/sigaram.jpg",
+            "tag": "Others",
+            "website": "https://www.sigaramtech.com/",
+            "status": "ongoing",
+            "seedSupport": false
+        },
+        {
+            "name": "Way2Grow",
+            "description": "Hydroponics for Agriculture",
+            "logo": "public/images/startups/ongoing/way2grow.jpg",
+            "tag": "AgriTech",
+            "website": "https://way2grow.tech/",
+            "status": "ongoing",
+            "seedSupport": false
+        },
+        {
+            "name": "Extech Innovations PVT. LTD.",
+            "description": "Industrial Computer Vision & Solutions",
+            "logo": "public/images/startups/ongoing/extech.jpg",
+            "tag": "IT/ITC",
+            "website": "",
+            "status": "ongoing",
+            "seedSupport": false
+        },
+        {
+            "name": "OLOG Logistics, Chennai",
+            "description": "Logistics",
+            "logo": "public/images/startups/graduated/fr8.jpg",
+            "tag": "Others",
+            "website": "https://www.fr8.in/",
+            "status": "graduated",
+            "seedSupport": false
+        },
+        {
+            "name": "Cavintek, Chennai",
+            "description": "File Tracking",
+            "logo": "public/images/startups/graduated/cavintek.jpg",
+            "tag": "IT/ITC",
+            "website": "http://www.cavintek.com/",
+            "status": "graduated",
+            "seedSupport": false
+        },
+        {
+            "name": "CUEDIO Technologies LLP",
+            "description": "Digital Imaging",
+            "logo": "public/images/startups/graduated/cuedio.jpg",
+            "tag": "IT/ITC",
+            "website": "http://www.cuedio.com/",
+            "status": "graduated",
+            "seedSupport": false
+        },
+        {
+            "name": "CY4 PVT. LTD.",
+            "description": "Home Automation Device",
+            "logo": "public/images/startups/ongoing/cy4.jpg",
+            "tag": "IOT",
+            "website": "",
+            "status": "ongoing",
+            "seedSupport": false
+        },
+        {
+            "name": "CAD MAcRO, Chennai",
+            "description": "ERP - IOT for Tool Rooms",
+            "logo": "public/images/startups/ongoing/cadmacro.jpg",
+            "tag": "IOT",
+            "website": "https://www.cadmacro.com/web/index.php",
+            "status": "ongoing",
+            "seedSupport": false
+        },
+        {
+            "name": "Ingens Tech Private Limited",
+            "description": "Solar Panel Cleaning Robot",
+            "logo": "public/images/startups/ongoing/ingens-tech.jpg",
+            "tag": "CleanTech",
+            "website": "https://www.ingenstech.com",
+            "status": "ongoing",
+            "seedSupport": false
+        },
+        {
+            "name": "VNS ENVIRO BIOTECHQ PVT LTD",
+            "description": "Dewatering System for Vegtable Waste",
+            "logo": "public/images/startups/ongoing/vnsenviro.jpg",
+            "tag": "CleanTech",
+            "website": "https://www.vnsenviro.com",
+            "status": "ongoing",
+            "seedSupport": false
+        },
+        {
+            "name": "Thoughtbit Technologies, Chennai",
+            "description": "GST Compliance",
+            "logo": "public/images/startups/ongoing/thoughtbit.jpg",
+            "tag": "FinTech",
+            "website": "http://www.thoughtbit.in/",
+            "status": "ongoing",
+            "seedSupport": false
+        },
+        {
+            "name": "SR Engineering Solutions",
+            "description": "Rotary Union",
+            "logo": "public/images/startups/ongoing/sr-engg.jpg",
+            "tag": "Others",
+            "website": "https://www.srengineeringsolutions.com/",
+            "status": "ongoing",
+            "seedSupport": false
+        },
+        {
+            "name": "Arhunika Engineering Solutions",
+            "description": "Smart Oil Lubricant Systems",
+            "logo": "public/images/startups/ongoing/arhunika.jpg",
+            "tag": "Others",
+            "website": "",
+            "status": "ongoing",
+            "seedSupport": false
+        },
+        {
+            "name": "SSD Controls, Chennai",
+            "description": "Electrical Drives",
+            "logo": "public/images/startups/graduated/ssd-controls.jpg",
+            "tag": "Others",
+            "website": "http://ssd-controls.com/index.html",
+            "status": "graduated",
+            "seedSupport": false
+        }
+    ]
+}

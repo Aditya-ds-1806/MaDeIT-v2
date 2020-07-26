@@ -2,6 +2,15 @@
 include 'partials/header.php';
 $startups = file_get_contents('public/json/startups.json', true);
 $startups = json_decode($startups, true);
+
+function companyExists($param1, $value1, $param2, $value2, $startups)
+{
+    for ($j = 0; $j < count($startups['companies']); $j++) {
+        $company = $startups['companies'][$j];
+        if ($company[$param1] === $value1 && $company[$param2] === $value2) return true;
+    }
+    return false;
+}
 ?>
 
 <style>
@@ -34,51 +43,60 @@ $startups = json_decode($startups, true);
 
 <body class="bg-wild-sand">
     <?php include 'partials/navbar.php' ?>
-    <section class="container-fluid bg-wild-sand py-5 px-0 text-sm-center">
-        <header class="container mt-5 sticky-top">
-            <h1>Startups</h1>
-            <div class="position-absolute my-2" style="right:0; top:0">
-                <div class="dropdown container text-center">
-                    <button class="btn btn-mountain-meadow text-white dropdown-toggle text-right rounded-pill" type="button" id="dropdownMenuButton" data-toggle="dropdown">IOT<span class="fas filter pl-3"></span></button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <?php for ($i = 0; $i < count($startups['tags']); $i++) { ?>
-                            <?php $tag = str_replace([' ', '/'], '-', $startups['tags'][$i]) ?>
-                            <?php $id = $startups["tags"][$i] ?>
-                            <a class="dropdown-item" id="<?php echo $tag; ?>" href="<?php echo "#$tag-tab" ?>" data-toggle="tab" role="tab">
-                                <?php echo ucfirst($startups['tags'][$i]) ?>
-                            </a>
-                        <?php } ?>
+    <section class="container-fluid bg-wild-sand py-5 px-0 text-sm-center mt-5">
+        <h1 class="text-center">Portfolio</h1>
+        <ul class="nav nav-pills justify-content-center my-5" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="btn btn-outline-mountain-meadow active px-sm-4 py-sm-2 m-1 m-sm-2" id="ongoing" data-toggle="pill" href="#ongoing-tab" role="tab">Ongoing</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-outline-mountain-meadow px-sm-4 py-sm-2 m-1 m-sm-2" id="graduated" data-toggle="pill" href="#graduated-tab" role="tab">Graduated</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-outline-mountain-meadow px-sm-4 py-sm-2 m-1 m-sm-2" id="seed" data-toggle="pill" href="#seed-tab" role="tab">Seed Support</a>
+            </li>
+        </ul>
+
+        <div class="container text-center mb-5 pb-5">
+            <hr class="border-0" style="height: 2px; background-image: linear-gradient(to right, rgba(108, 117, 125, 0), rgba(108, 117, 125, 0.75), rgba(108, 117, 125, 0));">
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="ongoing-tab" role="tabpanel">
+                    <?php
+                    $param1 = 'tag';
+                    $param2 = 'status';
+                    $value2 = 'ongoing';
+                    $suffix = 'ongoing-tab';
+                    ?>
+                    <div class="tab-content">
+                        <?php include('partials/tab.php') ?>
                     </div>
                 </div>
-            </div>
-        </header>
-        <div class="container text-left">
-            <div class="tab-content" id="pills-tabContent">
-                <?php for ($j = 0; $j < count($startups['tags']); $j++) { ?>
-                    <?php $tag = $startups['tags'][$j]; ?>
-                    <div class="tab-pane fade<?php if ($j === 0) echo ' show active' ?>" id="<?php echo str_replace([' ', '/'], '-', $startups['tags'][$j]) . "-tab" ?>" role="tabpanel">
-                        <?php if ($j > 6) {
-                            unset($tag);
-                            $status = $startups['tags'][$j];
-                        } ?>
-                        <?php include 'partials/startup-card.php' ?>
+                <div class="tab-pane fade" id="graduated-tab" role="tabpanel">
+                    <?php
+                    $param1 = 'tag';
+                    $param2 = 'status';
+                    $value2 = 'graduated';
+                    $suffix = 'graduated-tab'
+                    ?>
+                    <div class="tab-content">
+                        <?php include('partials/tab.php') ?>
                     </div>
-                <?php } ?>
+                </div>
+                <div class="tab-pane fade" id="seed-tab" role="tabpanel">
+                    <?php
+                    $param1 = 'tag';
+                    $param2 = 'seedSupport';
+                    $value2 = true;
+                    $suffix = 'seed-tab';
+                    ?>
+                    <div class="tab-content">
+                        <?php include('partials/tab.php') ?>
+                    </div>
+                </div>
+                <a href="portfolio" class="btn btn-outline-emperor px-4 pb-2 mt-5">View more</a>
             </div>
-        </div>
     </section>
 
-    <section class="container-fluid bg-wild-sand text-center pb-5">
-        <header class="container-fluid d-inline-block text-center mt-5">
-            <div>
-                <h1>Seed Support</h1>
-            </div>
-        </header>
-        <div class="container text-left pb-5">
-            <?php $tag = 'seed'; ?>
-            <?php include 'partials/startup-card.php' ?>
-        </div>
-    </section>
     <?php include 'partials/footer.php' ?>
     <script>
         $('a[data-toggle="tab"]').on('shown.bs.tab', function() {
@@ -87,20 +105,6 @@ $startups = json_decode($startups, true);
         $('a[data-toggle="tab"]').on('click', function() {
             $('button[data-toggle="dropdown"]').html($.trim(this.text) + '<span class="fas filter pl-3"></span>');
         });
-
-        const observer = new IntersectionObserver(e => {
-            var isSticky = !e[0].isIntersecting;
-            if (isSticky) {
-                document.querySelector('header > h1').classList.add('transparent');
-            } else {
-                document.querySelector('header > h1').classList.remove('transparent');
-            }
-        }, {
-            rootMargin: '-1px 0px 0px 0px',
-            threshold: [1],
-        });
-
-        observer.observe(document.querySelector('header'));
     </script>
 </body>
 

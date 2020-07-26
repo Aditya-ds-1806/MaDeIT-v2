@@ -63,7 +63,7 @@
                 processData: false,
                 success: function(res) {
                     $("#message").text(res);
-                    $("#message").addClass('d-none');
+                    $("#message").removeClass('d-none');
                     $("#upload-spinner").addClass('d-none');
                     setTimeout(function() {
                         $("#message").addClass('d-none');

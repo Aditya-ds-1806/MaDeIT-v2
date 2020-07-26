@@ -17,6 +17,15 @@ $events = json_decode($events, true);
 $carousel = file_get_contents('public/json/carousel.json', true);
 $carousel = json_decode($carousel, true);
 
+function companyExists($param1, $value1, $param2, $value2, $startups)
+{
+    for ($j = 0; $j < count($startups['companies']); $j++) {
+        $company = $startups['companies'][$j];
+        if ($company[$param1] === $value1 && $company[$param2] === $value2) return true;
+    }
+    return false;
+}
+
 ?>
 
 
@@ -90,22 +99,37 @@ $carousel = json_decode($carousel, true);
                 requirements.</p>
             <ul class="nav nav-pills justify-content-center my-5" id="pills-tab" role="tablist">
                 <li class="nav-item">
-                    <a class="btn btn-outline-mountain-meadow active px-sm-4 py-sm-2 mr-2" id="ongoing" data-toggle="pill" href="#ongoing-tab" role="tab">Ongoing</a>
+                    <a class="btn btn-outline-mountain-meadow active px-sm-4 py-sm-2 m-1 m-sm-2" id="ongoing" data-toggle="pill" href="#ongoing-tab" role="tab">Ongoing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-outline-mountain-meadow px-sm-4 py-sm-2 ml-2" id="graduated" data-toggle="pill" href="#graduated-tab" role="tab">Graduated</a>
+                    <a class="btn btn-outline-mountain-meadow px-sm-4 py-sm-2 m-1 m-sm-2" id="graduated" data-toggle="pill" href="#graduated-tab" role="tab">Graduated</a>
                 </li>
             </ul>
         </header>
         <div class="container text-center mb-5 pb-5">
+            <hr class="border-0" style="height: 1px; background-image: linear-gradient(to right, rgba(108, 117, 125, 0), rgba(108, 117, 125, 0.75), rgba(108, 117, 125, 0));">
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="ongoing-tab" role="tabpanel">
-                    <?php $status = 'ongoing';
-                    include 'partials/startup-card.php'; ?>
+                    <?php
+                    $param1 = 'tag';
+                    $param2 = 'status';
+                    $value2 = 'ongoing';
+                    $suffix = 'ongoing-tab';
+                    ?>
+                    <div class="tab-content">
+                        <?php include('partials/tab.php') ?>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="graduated-tab" role="tabpanel">
-                    <?php $status = 'graduated';
-                    include 'partials/startup-card.php'; ?>
+                    <?php
+                    $param1 = 'tag';
+                    $param2 = 'status';
+                    $value2 = 'graduated';
+                    $suffix = 'graduated-tab';
+                    ?>
+                    <div class="tab-content">
+                        <?php include('partials/tab.php') ?>
+                    </div>
                 </div>
             </div>
             <a href="portfolio" class="btn btn-outline-emperor px-4 pb-2 mt-5">View more</a>
