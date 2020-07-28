@@ -11,6 +11,14 @@ function companyExists($param1, $value1, $param2, $value2, $startups)
     }
     return false;
 }
+
+function getCond($j, $startups, $value1)
+{
+    if (isset($all) && $all) {
+        if (isset($status) && isset($value1)) return $startups['companies'][$j]['status'] === $value1;
+        return true;
+    }
+}
 ?>
 
 <style>
@@ -47,7 +55,10 @@ function companyExists($param1, $value1, $param2, $value2, $startups)
         <h1 class="text-center">Portfolio</h1>
         <ul class="nav nav-pills justify-content-center my-5" id="pills-tab" role="tablist">
             <li class="nav-item">
-                <a class="btn btn-outline-mountain-meadow active px-sm-4 py-sm-2 m-1 m-sm-2" id="ongoing" data-toggle="pill" href="#ongoing-tab" role="tab">Ongoing</a>
+                <a class="btn btn-outline-mountain-meadow active px-sm-4 py-sm-2 m-1 m-sm-2" id="all" data-toggle="pill" href="#all-tab" role="tab">All</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-outline-mountain-meadow px-sm-4 py-sm-2 m-1 m-sm-2" id="ongoing" data-toggle="pill" href="#ongoing-tab" role="tab">Ongoing</a>
             </li>
             <li class="nav-item">
                 <a class="btn btn-outline-mountain-meadow px-sm-4 py-sm-2 m-1 m-sm-2" id="graduated" data-toggle="pill" href="#graduated-tab" role="tab">Graduated</a>
@@ -60,8 +71,18 @@ function companyExists($param1, $value1, $param2, $value2, $startups)
         <div class="container text-center mb-5 pb-5">
             <hr class="border-0" style="height: 2px; background-image: linear-gradient(to right, rgba(108, 117, 125, 0), rgba(108, 117, 125, 0.75), rgba(108, 117, 125, 0));">
             <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="ongoing-tab" role="tabpanel">
+                <div class="tab-pane fade show active" id="all-tab" role="tabpanel">
                     <?php
+                    $all = true;
+                    $suffix = 'all-tab';
+                    ?>
+                    <div class="tab-content">
+                        <?php include('partials/tab.php') ?>
+                    </div>
+                </div>
+                <div class="tab-pane" id="ongoing-tab" role="tabpanel">
+                    <?php
+                    unset($all);
                     $param1 = 'tag';
                     $param2 = 'status';
                     $value2 = 'ongoing';
@@ -73,6 +94,7 @@ function companyExists($param1, $value1, $param2, $value2, $startups)
                 </div>
                 <div class="tab-pane fade" id="graduated-tab" role="tabpanel">
                     <?php
+                    unset($all);
                     $param1 = 'tag';
                     $param2 = 'status';
                     $value2 = 'graduated';
@@ -84,6 +106,7 @@ function companyExists($param1, $value1, $param2, $value2, $startups)
                 </div>
                 <div class="tab-pane fade" id="seed-tab" role="tabpanel">
                     <?php
+                    unset($all);
                     $param1 = 'tag';
                     $param2 = 'seedSupport';
                     $value2 = true;

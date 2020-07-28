@@ -26,6 +26,14 @@ function companyExists($param1, $value1, $param2, $value2, $startups)
     return false;
 }
 
+function getCond($j, $startups, $value1)
+{
+    if (isset($all) && $all) {
+        if (isset($status) && isset($value1)) return $startups['companies'][$j]['status'] === $value1;
+        return true;
+    }
+}
+
 ?>
 
 
@@ -107,14 +115,12 @@ function companyExists($param1, $value1, $param2, $value2, $startups)
             </ul>
         </header>
         <div class="container text-center mb-5 pb-5">
-            <hr class="border-0" style="height: 1px; background-image: linear-gradient(to right, rgba(108, 117, 125, 0), rgba(108, 117, 125, 0.75), rgba(108, 117, 125, 0));">
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="ongoing-tab" role="tabpanel">
                     <?php
-                    $param1 = 'tag';
-                    $param2 = 'status';
-                    $value2 = 'ongoing';
-                    $suffix = 'ongoing-tab';
+                    $all = true;
+                    $status = 'ongoing';
+                    $max = 6;
                     ?>
                     <div class="tab-content">
                         <?php include('partials/tab.php') ?>
@@ -122,10 +128,8 @@ function companyExists($param1, $value1, $param2, $value2, $startups)
                 </div>
                 <div class="tab-pane fade" id="graduated-tab" role="tabpanel">
                     <?php
-                    $param1 = 'tag';
-                    $param2 = 'status';
-                    $value2 = 'graduated';
-                    $suffix = 'graduated-tab';
+                    $all = true;
+                    $status = 'graduated';
                     ?>
                     <div class="tab-content">
                         <?php include('partials/tab.php') ?>

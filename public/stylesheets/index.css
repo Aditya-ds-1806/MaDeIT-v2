@@ -18,7 +18,8 @@ div.hero-text {
 
 div.hero-social {
 	right: 60px;
-	top: calc(50vh - 8%);
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 div.scrolling-wrapper {
@@ -26,7 +27,6 @@ div.scrolling-wrapper {
 	display: flex;
 	overflow-x: auto;
 	flex-wrap: nowrap;
-	height: 460px;
 }
 
 div.scrolling-wrapper div.card {
@@ -69,10 +69,4 @@ span.badge {
 	position: absolute;
 	top: -5px;
 	right: -5px;
-}
-
-@media (max-width: 576px) {
-	div.scrolling-wrapper {
-		height: 500px;
-	}
 }
