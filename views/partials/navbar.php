@@ -5,7 +5,7 @@
 <nav class="navbar navbar-expand-lg navbar-light <?php if ($route === 'index') echo 'container';
                                                     else echo 'container-fluid' ?> bg-white shadow px-1 px-md-5 py-1 py-md-2 <?php if ($route === 'index') echo 'sticky-top mt-0 mt-sm-4 mt-md-5 float-left' ?>">
     <a class="navbar-brand" href="home">
-        <img loading="lazy" src="public/images/logo.jpg" width="50" height="50" class="d-inline-block align-bottom" alt="logo">
+        <img loading="lazy" src="public/images/logo.png" width="50" height="50" class="d-inline-block align-bottom" alt="logo">
         <span class="text-emperor d-inline-block">MaDeIT<small class="d-block w-100" style="font-size: 10px">Innovation Foundation</small></span>
     </a>
     <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
