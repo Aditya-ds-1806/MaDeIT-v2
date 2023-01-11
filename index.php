@@ -1,5 +1,5 @@
 <?php
-require 'flight/Flight.php';
+require 'vendor/autoload.php';
 
 Flight::route('/', function () {
     Flight::redirect('/home', 301);
