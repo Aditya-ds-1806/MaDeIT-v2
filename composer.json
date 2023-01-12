@@ -1,5 +1,14 @@
 {
+    "name": "aditya/madeit-v2",
+    "type": "project",
     "require": {
         "mikecao/flight": "^2.0"
-    }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aditya DS",
+            "email": "adithya18062000@gmail.com"
+        }
+    ]
 }
